@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--
+    context:生成一组对象的环境
+    id:必选，上下文id，用于在生成错误时提示
+    defaultModelType:指定生成对象的样式
+        1，conditional：类似hierarchical；
+        2，flat：所有内容（主键，blob）等全部生成在一个对象中；
+        3，hierarchical：主键生成一个XXKey对象(key class)，Blob等单独生成一个对象，其他简单属性在一个对象中(record class)
+    targetRuntime:
+        1，MyBatis3：默认的值，生成基于MyBatis3.x以上版本的内容，包括XXXBySample；
+        2，MyBatis3Simple：类似MyBatis3，只是不生成XXXBySample；
+    introspectedColumnImpl：类全限定名，用于扩展MBG
+-->
+    <context id="default" targetRuntime="MyBatis3" defaultModelType="flat">
+        <!-- 生成的pojo，将implements Serializable -->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+        <commentGenerator>
+            <!-- 注释生成器（false 开启默认 true关闭） -->
+            <property name="suppressAllComments" value="true"></property>
+            <!-- 注释生成器时间显示（false 开启默认 true关闭） -->
+            <property name="suppressDate" value="true"></property>
+            <!-- java 文件编码格式  -->
+            <property name="javaFileEncoding" value="utf-8"/>
+            <!--格式化java代码-->
+            <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"></property>
+            <!-- 格式化XML代码 -->
+            <property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter"/>
+        </commentGenerator>
+
+        <!-- jdbc 连接信息  -->
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://112.74.19.176:3306/ad_guider"
+                        userId="power_ad"
+                        password="codespace0@#$">
+        </jdbcConnection>
+        <!-- 定义java类型解析器的属性 -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false"/>
+        </javaTypeResolver>
+
+        <!-- 实体类所在包名 -->
+        <javaModelGenerator targetPackage="common.pojo"
+                            targetProject="G:\SpringCloud\microservicecloud\microservicecloud-api\src\main\java">
+            <property name="enableSubPackages" value="true"></property>
+            <property name="trimStrings" value="true"></property>
+        </javaModelGenerator>
+
+        <!-- 生成映射文件配置 xml 所在包名 -->
+        <sqlMapGenerator targetPackage="mybatis.mapper.common"
+                         targetProject="G:\SpringCloud\microservicecloud\microservicecloud-api\src\main\resources">
+            <property name="enableSubPackages" value="true"></property>
+        </sqlMapGenerator>
+        <!--
+               type= ANNOTATEDMAPPER 表示不生成xml文件
+               这里我用 XMLMAPPER
+               -->
+        <!-- org.mapper 所在包名 -->
+        <javaClientGenerator targetPackage="common.mapper"
+                             targetProject="G:\SpringCloud\microservicecloud\microservicecloud-api\src\main\java"
+                             type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+
+        <!-- 要生成的表 xml文件重复生成会有问题要注意-->
+        <!--注意修改数据库jdbc.properties中数据库名-->
+
+        <!--生成mapper的表配置放到对应的库名分类下，生成之后注释掉，不要重复生成，xml会追加-->
+        <!--<table tableName="ac_base_account" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="uState" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="ac_base_info" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="uIdcardType" javaType="Integer"/>-->
+            <!--<columnOverride column="uGender" javaType="Integer"/>-->
+            <!--<columnOverride column="uHeight" javaType="Integer"/>-->
+            <!--<columnOverride column="uWeight" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="ac_foreigner_account" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="faState" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="ac_foreigner_account_type" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="faAccountTypeState" javaType="Integer"/>-->
+            <!--<columnOverride column="faAccountBindStategy" javaType="Integer"/>-->
+            <!--<columnOverride column="faAccountAsync" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="pr_account_group" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="agState" javaType="Integer"/>-->
+            <!--<columnOverride column="agIncludeType" javaType="Integer"/>-->
+            <!--<columnOverride column="agDefaultType" javaType="Integer"/>-->
+            <!--<columnOverride column="agLevel" javaType="Integer"/>-->
+            <!--<columnOverride column="agOnlyGp" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="pr_account_group_member" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="agmState" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="pr_funcs" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="funcState" javaType="Integer"/>-->
+            <!--<columnOverride column="funcLevel" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <!--<table tableName="pr_group_func_relation" enableCountByExample="false" enableUpdateByExample="false"-->
+               <!--enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">-->
+            <!--<property name="runtimeSchema" value="ad_guider"/>-->
+            <!--<property name="useActualColumnNames" value="true"/>-->
+            <!--<columnOverride column="pfrType" javaType="Integer"/>-->
+        <!--</table>-->
+
+        <table tableName="example" enableCountByExample="false" enableUpdateByExample="false"
+               enableDeleteByExample="false" enableSelectByExample="false" selectByExampleQueryId="false">
+            <property name="runtimeSchema" value="example"/>
+            <property name="useActualColumnNames" value="true"/>
+            <columnOverride column="example" javaType="Integer"/>
+            <columnOverride column="example" javaType="Integer"/>
+            <columnOverride column="example" javaType="Integer"/>
+        </table>
+
+    </context>
+</generatorConfiguration>

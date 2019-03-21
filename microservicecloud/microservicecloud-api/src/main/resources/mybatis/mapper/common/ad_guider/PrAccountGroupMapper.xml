@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="common.mapper.ad_guider.PrAccountGroupMapper">
+  <resultMap id="BaseResultMap" type="common.pojo.ad_guider.PrAccountGroup">
+    <id column="agId" jdbcType="INTEGER" property="agId" />
+    <result column="agAdminAccountId" jdbcType="INTEGER" property="agAdminAccountId" />
+    <result column="agName" jdbcType="VARCHAR" property="agName" />
+    <result column="agState" jdbcType="TINYINT" property="agState" />
+    <result column="agIncludeType" jdbcType="TINYINT" property="agIncludeType" />
+    <result column="agDefaultType" jdbcType="TINYINT" property="agDefaultType" />
+    <result column="agLevel" jdbcType="SMALLINT" property="agLevel" />
+    <result column="agOnlyGp" jdbcType="TINYINT" property="agOnlyGp" />
+    <result column="agDesp" jdbcType="VARCHAR" property="agDesp" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    agId, agAdminAccountId, agName, agState, agIncludeType, agDefaultType, agLevel, agOnlyGp, 
+    agDesp
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from ad_guider.pr_account_group
+    where agId = #{agId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ad_guider.pr_account_group
+    where agId = #{agId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="common.pojo.ad_guider.PrAccountGroup">
+    insert into ad_guider.pr_account_group (agId, agAdminAccountId, agName, 
+      agState, agIncludeType, agDefaultType, 
+      agLevel, agOnlyGp, agDesp
+      )
+    values (#{agId,jdbcType=INTEGER}, #{agAdminAccountId,jdbcType=INTEGER}, #{agName,jdbcType=VARCHAR}, 
+      #{agState,jdbcType=TINYINT}, #{agIncludeType,jdbcType=TINYINT}, #{agDefaultType,jdbcType=TINYINT}, 
+      #{agLevel,jdbcType=SMALLINT}, #{agOnlyGp,jdbcType=TINYINT}, #{agDesp,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="common.pojo.ad_guider.PrAccountGroup">
+    insert into ad_guider.pr_account_group
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="agId != null">
+        agId,
+      </if>
+      <if test="agAdminAccountId != null">
+        agAdminAccountId,
+      </if>
+      <if test="agName != null">
+        agName,
+      </if>
+      <if test="agState != null">
+        agState,
+      </if>
+      <if test="agIncludeType != null">
+        agIncludeType,
+      </if>
+      <if test="agDefaultType != null">
+        agDefaultType,
+      </if>
+      <if test="agLevel != null">
+        agLevel,
+      </if>
+      <if test="agOnlyGp != null">
+        agOnlyGp,
+      </if>
+      <if test="agDesp != null">
+        agDesp,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="agId != null">
+        #{agId,jdbcType=INTEGER},
+      </if>
+      <if test="agAdminAccountId != null">
+        #{agAdminAccountId,jdbcType=INTEGER},
+      </if>
+      <if test="agName != null">
+        #{agName,jdbcType=VARCHAR},
+      </if>
+      <if test="agState != null">
+        #{agState,jdbcType=TINYINT},
+      </if>
+      <if test="agIncludeType != null">
+        #{agIncludeType,jdbcType=TINYINT},
+      </if>
+      <if test="agDefaultType != null">
+        #{agDefaultType,jdbcType=TINYINT},
+      </if>
+      <if test="agLevel != null">
+        #{agLevel,jdbcType=SMALLINT},
+      </if>
+      <if test="agOnlyGp != null">
+        #{agOnlyGp,jdbcType=TINYINT},
+      </if>
+      <if test="agDesp != null">
+        #{agDesp,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="common.pojo.ad_guider.PrAccountGroup">
+    update ad_guider.pr_account_group
+    <set>
+      <if test="agAdminAccountId != null">
+        agAdminAccountId = #{agAdminAccountId,jdbcType=INTEGER},
+      </if>
+      <if test="agName != null">
+        agName = #{agName,jdbcType=VARCHAR},
+      </if>
+      <if test="agState != null">
+        agState = #{agState,jdbcType=TINYINT},
+      </if>
+      <if test="agIncludeType != null">
+        agIncludeType = #{agIncludeType,jdbcType=TINYINT},
+      </if>
+      <if test="agDefaultType != null">
+        agDefaultType = #{agDefaultType,jdbcType=TINYINT},
+      </if>
+      <if test="agLevel != null">
+        agLevel = #{agLevel,jdbcType=SMALLINT},
+      </if>
+      <if test="agOnlyGp != null">
+        agOnlyGp = #{agOnlyGp,jdbcType=TINYINT},
+      </if>
+      <if test="agDesp != null">
+        agDesp = #{agDesp,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where agId = #{agId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="common.pojo.ad_guider.PrAccountGroup">
+    update ad_guider.pr_account_group
+    set agAdminAccountId = #{agAdminAccountId,jdbcType=INTEGER},
+      agName = #{agName,jdbcType=VARCHAR},
+      agState = #{agState,jdbcType=TINYINT},
+      agIncludeType = #{agIncludeType,jdbcType=TINYINT},
+      agDefaultType = #{agDefaultType,jdbcType=TINYINT},
+      agLevel = #{agLevel,jdbcType=SMALLINT},
+      agOnlyGp = #{agOnlyGp,jdbcType=TINYINT},
+      agDesp = #{agDesp,jdbcType=VARCHAR}
+    where agId = #{agId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,5 @@
+rootProject.name = 'microservicecloud'
+include 'microservicecloud-api'
+include 'microservicecloud-provider-1'
+include 'microservicecloud-consumer-1'
+include 'microservicecloud-eureka'

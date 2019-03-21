@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="common.mapper.ad_guider.AcBaseInfoMapper">
+  <resultMap id="BaseResultMap" type="common.pojo.ad_guider.AcBaseInfo">
+    <id column="ubInfoId" jdbcType="INTEGER" property="ubInfoId" />
+    <result column="uName" jdbcType="VARCHAR" property="uName" />
+    <result column="uEmail" jdbcType="VARCHAR" property="uEmail" />
+    <result column="uTel" jdbcType="VARCHAR" property="uTel" />
+    <result column="uIdcard" jdbcType="VARCHAR" property="uIdcard" />
+    <result column="uIdcardType" jdbcType="TINYINT" property="uIdcardType" />
+    <result column="uTrueName" jdbcType="VARCHAR" property="uTrueName" />
+    <result column="uGender" jdbcType="TINYINT" property="uGender" />
+    <result column="uBirthday" jdbcType="TIMESTAMP" property="uBirthday" />
+    <result column="uDegree" jdbcType="VARCHAR" property="uDegree" />
+    <result column="uLocation" jdbcType="VARCHAR" property="uLocation" />
+    <result column="uCompany" jdbcType="VARCHAR" property="uCompany" />
+    <result column="uPosition" jdbcType="VARCHAR" property="uPosition" />
+    <result column="uLatitude" jdbcType="DOUBLE" property="uLatitude" />
+    <result column="uLongtitude" jdbcType="DOUBLE" property="uLongtitude" />
+    <result column="uImage" jdbcType="VARCHAR" property="uImage" />
+    <result column="uSource" jdbcType="VARCHAR" property="uSource" />
+    <result column="uAccountId" jdbcType="INTEGER" property="uAccountId" />
+    <result column="uHeight" jdbcType="SMALLINT" property="uHeight" />
+    <result column="uWeight" jdbcType="SMALLINT" property="uWeight" />
+    <result column="uAreaId" jdbcType="INTEGER" property="uAreaId" />
+    <result column="uCharacter" jdbcType="VARCHAR" property="uCharacter" />
+    <result column="uUpdateTime" jdbcType="TIMESTAMP" property="uUpdateTime" />
+    <result column="uCreateTime" jdbcType="TIMESTAMP" property="uCreateTime" />
+    <result column="uSignature" jdbcType="VARCHAR" property="uSignature" />
+    <result column="uSalt" jdbcType="VARCHAR" property="uSalt" />
+    <result column="uLabel" jdbcType="VARCHAR" property="uLabel" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    ubInfoId, uName, uEmail, uTel, uIdcard, uIdcardType, uTrueName, uGender, uBirthday, 
+    uDegree, uLocation, uCompany, uPosition, uLatitude, uLongtitude, uImage, uSource, 
+    uAccountId, uHeight, uWeight, uAreaId, uCharacter, uUpdateTime, uCreateTime, uSignature, 
+    uSalt, uLabel
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from ad_guider.ac_base_info
+    where ubInfoId = #{ubInfoId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ad_guider.ac_base_info
+    where ubInfoId = #{ubInfoId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="common.pojo.ad_guider.AcBaseInfo">
+    insert into ad_guider.ac_base_info (ubInfoId, uName, uEmail, 
+      uTel, uIdcard, uIdcardType, 
+      uTrueName, uGender, uBirthday, 
+      uDegree, uLocation, uCompany, 
+      uPosition, uLatitude, uLongtitude, 
+      uImage, uSource, uAccountId, 
+      uHeight, uWeight, uAreaId, 
+      uCharacter, uUpdateTime, uCreateTime, 
+      uSignature, uSalt, uLabel
+      )
+    values (#{ubInfoId,jdbcType=INTEGER}, #{uName,jdbcType=VARCHAR}, #{uEmail,jdbcType=VARCHAR}, 
+      #{uTel,jdbcType=VARCHAR}, #{uIdcard,jdbcType=VARCHAR}, #{uIdcardType,jdbcType=TINYINT}, 
+      #{uTrueName,jdbcType=VARCHAR}, #{uGender,jdbcType=TINYINT}, #{uBirthday,jdbcType=TIMESTAMP}, 
+      #{uDegree,jdbcType=VARCHAR}, #{uLocation,jdbcType=VARCHAR}, #{uCompany,jdbcType=VARCHAR}, 
+      #{uPosition,jdbcType=VARCHAR}, #{uLatitude,jdbcType=DOUBLE}, #{uLongtitude,jdbcType=DOUBLE}, 
+      #{uImage,jdbcType=VARCHAR}, #{uSource,jdbcType=VARCHAR}, #{uAccountId,jdbcType=INTEGER}, 
+      #{uHeight,jdbcType=SMALLINT}, #{uWeight,jdbcType=SMALLINT}, #{uAreaId,jdbcType=INTEGER}, 
+      #{uCharacter,jdbcType=VARCHAR}, #{uUpdateTime,jdbcType=TIMESTAMP}, #{uCreateTime,jdbcType=TIMESTAMP}, 
+      #{uSignature,jdbcType=VARCHAR}, #{uSalt,jdbcType=VARCHAR}, #{uLabel,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="common.pojo.ad_guider.AcBaseInfo">
+    insert into ad_guider.ac_base_info
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="ubInfoId != null">
+        ubInfoId,
+      </if>
+      <if test="uName != null">
+        uName,
+      </if>
+      <if test="uEmail != null">
+        uEmail,
+      </if>
+      <if test="uTel != null">
+        uTel,
+      </if>
+      <if test="uIdcard != null">
+        uIdcard,
+      </if>
+      <if test="uIdcardType != null">
+        uIdcardType,
+      </if>
+      <if test="uTrueName != null">
+        uTrueName,
+      </if>
+      <if test="uGender != null">
+        uGender,
+      </if>
+      <if test="uBirthday != null">
+        uBirthday,
+      </if>
+      <if test="uDegree != null">
+        uDegree,
+      </if>
+      <if test="uLocation != null">
+        uLocation,
+      </if>
+      <if test="uCompany != null">
+        uCompany,
+      </if>
+      <if test="uPosition != null">
+        uPosition,
+      </if>
+      <if test="uLatitude != null">
+        uLatitude,
+      </if>
+      <if test="uLongtitude != null">
+        uLongtitude,
+      </if>
+      <if test="uImage != null">
+        uImage,
+      </if>
+      <if test="uSource != null">
+        uSource,
+      </if>
+      <if test="uAccountId != null">
+        uAccountId,
+      </if>
+      <if test="uHeight != null">
+        uHeight,
+      </if>
+      <if test="uWeight != null">
+        uWeight,
+      </if>
+      <if test="uAreaId != null">
+        uAreaId,
+      </if>
+      <if test="uCharacter != null">
+        uCharacter,
+      </if>
+      <if test="uUpdateTime != null">
+        uUpdateTime,
+      </if>
+      <if test="uCreateTime != null">
+        uCreateTime,
+      </if>
+      <if test="uSignature != null">
+        uSignature,
+      </if>
+      <if test="uSalt != null">
+        uSalt,
+      </if>
+      <if test="uLabel != null">
+        uLabel,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="ubInfoId != null">
+        #{ubInfoId,jdbcType=INTEGER},
+      </if>
+      <if test="uName != null">
+        #{uName,jdbcType=VARCHAR},
+      </if>
+      <if test="uEmail != null">
+        #{uEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="uTel != null">
+        #{uTel,jdbcType=VARCHAR},
+      </if>
+      <if test="uIdcard != null">
+        #{uIdcard,jdbcType=VARCHAR},
+      </if>
+      <if test="uIdcardType != null">
+        #{uIdcardType,jdbcType=TINYINT},
+      </if>
+      <if test="uTrueName != null">
+        #{uTrueName,jdbcType=VARCHAR},
+      </if>
+      <if test="uGender != null">
+        #{uGender,jdbcType=TINYINT},
+      </if>
+      <if test="uBirthday != null">
+        #{uBirthday,jdbcType=TIMESTAMP},
+      </if>
+      <if test="uDegree != null">
+        #{uDegree,jdbcType=VARCHAR},
+      </if>
+      <if test="uLocation != null">
+        #{uLocation,jdbcType=VARCHAR},
+      </if>
+      <if test="uCompany != null">
+        #{uCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="uPosition != null">
+        #{uPosition,jdbcType=VARCHAR},
+      </if>
+      <if test="uLatitude != null">
+        #{uLatitude,jdbcType=DOUBLE},
+      </if>
+      <if test="uLongtitude != null">
+        #{uLongtitude,jdbcType=DOUBLE},
+      </if>
+      <if test="uImage != null">
+        #{uImage,jdbcType=VARCHAR},
+      </if>
+      <if test="uSource != null">
+        #{uSource,jdbcType=VARCHAR},
+      </if>
+      <if test="uAccountId != null">
+        #{uAccountId,jdbcType=INTEGER},
+      </if>
+      <if test="uHeight != null">
+        #{uHeight,jdbcType=SMALLINT},
+      </if>
+      <if test="uWeight != null">
+        #{uWeight,jdbcType=SMALLINT},
+      </if>
+      <if test="uAreaId != null">
+        #{uAreaId,jdbcType=INTEGER},
+      </if>
+      <if test="uCharacter != null">
+        #{uCharacter,jdbcType=VARCHAR},
+      </if>
+      <if test="uUpdateTime != null">
+        #{uUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="uCreateTime != null">
+        #{uCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="uSignature != null">
+        #{uSignature,jdbcType=VARCHAR},
+      </if>
+      <if test="uSalt != null">
+        #{uSalt,jdbcType=VARCHAR},
+      </if>
+      <if test="uLabel != null">
+        #{uLabel,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="common.pojo.ad_guider.AcBaseInfo">
+    update ad_guider.ac_base_info
+    <set>
+      <if test="uName != null">
+        uName = #{uName,jdbcType=VARCHAR},
+      </if>
+      <if test="uEmail != null">
+        uEmail = #{uEmail,jdbcType=VARCHAR},
+      </if>
+      <if test="uTel != null">
+        uTel = #{uTel,jdbcType=VARCHAR},
+      </if>
+      <if test="uIdcard != null">
+        uIdcard = #{uIdcard,jdbcType=VARCHAR},
+      </if>
+      <if test="uIdcardType != null">
+        uIdcardType = #{uIdcardType,jdbcType=TINYINT},
+      </if>
+      <if test="uTrueName != null">
+        uTrueName = #{uTrueName,jdbcType=VARCHAR},
+      </if>
+      <if test="uGender != null">
+        uGender = #{uGender,jdbcType=TINYINT},
+      </if>
+      <if test="uBirthday != null">
+        uBirthday = #{uBirthday,jdbcType=TIMESTAMP},
+      </if>
+      <if test="uDegree != null">
+        uDegree = #{uDegree,jdbcType=VARCHAR},
+      </if>
+      <if test="uLocation != null">
+        uLocation = #{uLocation,jdbcType=VARCHAR},
+      </if>
+      <if test="uCompany != null">
+        uCompany = #{uCompany,jdbcType=VARCHAR},
+      </if>
+      <if test="uPosition != null">
+        uPosition = #{uPosition,jdbcType=VARCHAR},
+      </if>
+      <if test="uLatitude != null">
+        uLatitude = #{uLatitude,jdbcType=DOUBLE},
+      </if>
+      <if test="uLongtitude != null">
+        uLongtitude = #{uLongtitude,jdbcType=DOUBLE},
+      </if>
+      <if test="uImage != null">
+        uImage = #{uImage,jdbcType=VARCHAR},
+      </if>
+      <if test="uSource != null">
+        uSource = #{uSource,jdbcType=VARCHAR},
+      </if>
+      <if test="uAccountId != null">
+        uAccountId = #{uAccountId,jdbcType=INTEGER},
+      </if>
+      <if test="uHeight != null">
+        uHeight = #{uHeight,jdbcType=SMALLINT},
+      </if>
+      <if test="uWeight != null">
+        uWeight = #{uWeight,jdbcType=SMALLINT},
+      </if>
+      <if test="uAreaId != null">
+        uAreaId = #{uAreaId,jdbcType=INTEGER},
+      </if>
+      <if test="uCharacter != null">
+        uCharacter = #{uCharacter,jdbcType=VARCHAR},
+      </if>
+      <if test="uUpdateTime != null">
+        uUpdateTime = #{uUpdateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="uCreateTime != null">
+        uCreateTime = #{uCreateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="uSignature != null">
+        uSignature = #{uSignature,jdbcType=VARCHAR},
+      </if>
+      <if test="uSalt != null">
+        uSalt = #{uSalt,jdbcType=VARCHAR},
+      </if>
+      <if test="uLabel != null">
+        uLabel = #{uLabel,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where ubInfoId = #{ubInfoId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="common.pojo.ad_guider.AcBaseInfo">
+    update ad_guider.ac_base_info
+    set uName = #{uName,jdbcType=VARCHAR},
+      uEmail = #{uEmail,jdbcType=VARCHAR},
+      uTel = #{uTel,jdbcType=VARCHAR},
+      uIdcard = #{uIdcard,jdbcType=VARCHAR},
+      uIdcardType = #{uIdcardType,jdbcType=TINYINT},
+      uTrueName = #{uTrueName,jdbcType=VARCHAR},
+      uGender = #{uGender,jdbcType=TINYINT},
+      uBirthday = #{uBirthday,jdbcType=TIMESTAMP},
+      uDegree = #{uDegree,jdbcType=VARCHAR},
+      uLocation = #{uLocation,jdbcType=VARCHAR},
+      uCompany = #{uCompany,jdbcType=VARCHAR},
+      uPosition = #{uPosition,jdbcType=VARCHAR},
+      uLatitude = #{uLatitude,jdbcType=DOUBLE},
+      uLongtitude = #{uLongtitude,jdbcType=DOUBLE},
+      uImage = #{uImage,jdbcType=VARCHAR},
+      uSource = #{uSource,jdbcType=VARCHAR},
+      uAccountId = #{uAccountId,jdbcType=INTEGER},
+      uHeight = #{uHeight,jdbcType=SMALLINT},
+      uWeight = #{uWeight,jdbcType=SMALLINT},
+      uAreaId = #{uAreaId,jdbcType=INTEGER},
+      uCharacter = #{uCharacter,jdbcType=VARCHAR},
+      uUpdateTime = #{uUpdateTime,jdbcType=TIMESTAMP},
+      uCreateTime = #{uCreateTime,jdbcType=TIMESTAMP},
+      uSignature = #{uSignature,jdbcType=VARCHAR},
+      uSalt = #{uSalt,jdbcType=VARCHAR},
+      uLabel = #{uLabel,jdbcType=VARCHAR}
+    where ubInfoId = #{ubInfoId,jdbcType=INTEGER}
+  </update>
+</mapper>

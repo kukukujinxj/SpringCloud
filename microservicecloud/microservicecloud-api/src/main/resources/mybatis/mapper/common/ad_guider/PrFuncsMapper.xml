@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="common.mapper.ad_guider.PrFuncsMapper">
+  <resultMap id="BaseResultMap" type="common.pojo.ad_guider.PrFuncs">
+    <id column="funcId" jdbcType="INTEGER" property="funcId" />
+    <result column="funcResourceKey" jdbcType="VARCHAR" property="funcResourceKey" />
+    <result column="funcMethod" jdbcType="VARCHAR" property="funcMethod" />
+    <result column="funcDescription" jdbcType="VARCHAR" property="funcDescription" />
+    <result column="funcJudgeParam" jdbcType="VARCHAR" property="funcJudgeParam" />
+    <result column="funcJudgeParamValue" jdbcType="VARCHAR" property="funcJudgeParamValue" />
+    <result column="funcState" jdbcType="TINYINT" property="funcState" />
+    <result column="funcGpReferId" jdbcType="INTEGER" property="funcGpReferId" />
+    <result column="funcJudgeSubParam" jdbcType="VARCHAR" property="funcJudgeSubParam" />
+    <result column="funcJudgeSubParamValue" jdbcType="VARCHAR" property="funcJudgeSubParamValue" />
+    <result column="funcGpName" jdbcType="VARCHAR" property="funcGpName" />
+    <result column="funcSubGpName" jdbcType="VARCHAR" property="funcSubGpName" />
+    <result column="funcImplPath" jdbcType="VARCHAR" property="funcImplPath" />
+    <result column="funcLevel" jdbcType="SMALLINT" property="funcLevel" />
+    <result column="funcMainDescription" jdbcType="VARCHAR" property="funcMainDescription" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="common.pojo.ad_guider.PrFuncs">
+    <result column="funcJudgeCondition" jdbcType="LONGVARCHAR" property="funcJudgeCondition" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    funcId, funcResourceKey, funcMethod, funcDescription, funcJudgeParam, funcJudgeParamValue, 
+    funcState, funcGpReferId, funcJudgeSubParam, funcJudgeSubParamValue, funcGpName, 
+    funcSubGpName, funcImplPath, funcLevel, funcMainDescription
+  </sql>
+  <sql id="Blob_Column_List">
+    funcJudgeCondition
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from ad_guider.pr_funcs
+    where funcId = #{funcId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ad_guider.pr_funcs
+    where funcId = #{funcId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="common.pojo.ad_guider.PrFuncs">
+    insert into ad_guider.pr_funcs (funcId, funcResourceKey, funcMethod, 
+      funcDescription, funcJudgeParam, funcJudgeParamValue, 
+      funcState, funcGpReferId, funcJudgeSubParam, 
+      funcJudgeSubParamValue, funcGpName, funcSubGpName, 
+      funcImplPath, funcLevel, funcMainDescription, 
+      funcJudgeCondition)
+    values (#{funcId,jdbcType=INTEGER}, #{funcResourceKey,jdbcType=VARCHAR}, #{funcMethod,jdbcType=VARCHAR}, 
+      #{funcDescription,jdbcType=VARCHAR}, #{funcJudgeParam,jdbcType=VARCHAR}, #{funcJudgeParamValue,jdbcType=VARCHAR}, 
+      #{funcState,jdbcType=TINYINT}, #{funcGpReferId,jdbcType=INTEGER}, #{funcJudgeSubParam,jdbcType=VARCHAR}, 
+      #{funcJudgeSubParamValue,jdbcType=VARCHAR}, #{funcGpName,jdbcType=VARCHAR}, #{funcSubGpName,jdbcType=VARCHAR}, 
+      #{funcImplPath,jdbcType=VARCHAR}, #{funcLevel,jdbcType=SMALLINT}, #{funcMainDescription,jdbcType=VARCHAR}, 
+      #{funcJudgeCondition,jdbcType=LONGVARCHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="common.pojo.ad_guider.PrFuncs">
+    insert into ad_guider.pr_funcs
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="funcId != null">
+        funcId,
+      </if>
+      <if test="funcResourceKey != null">
+        funcResourceKey,
+      </if>
+      <if test="funcMethod != null">
+        funcMethod,
+      </if>
+      <if test="funcDescription != null">
+        funcDescription,
+      </if>
+      <if test="funcJudgeParam != null">
+        funcJudgeParam,
+      </if>
+      <if test="funcJudgeParamValue != null">
+        funcJudgeParamValue,
+      </if>
+      <if test="funcState != null">
+        funcState,
+      </if>
+      <if test="funcGpReferId != null">
+        funcGpReferId,
+      </if>
+      <if test="funcJudgeSubParam != null">
+        funcJudgeSubParam,
+      </if>
+      <if test="funcJudgeSubParamValue != null">
+        funcJudgeSubParamValue,
+      </if>
+      <if test="funcGpName != null">
+        funcGpName,
+      </if>
+      <if test="funcSubGpName != null">
+        funcSubGpName,
+      </if>
+      <if test="funcImplPath != null">
+        funcImplPath,
+      </if>
+      <if test="funcLevel != null">
+        funcLevel,
+      </if>
+      <if test="funcMainDescription != null">
+        funcMainDescription,
+      </if>
+      <if test="funcJudgeCondition != null">
+        funcJudgeCondition,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="funcId != null">
+        #{funcId,jdbcType=INTEGER},
+      </if>
+      <if test="funcResourceKey != null">
+        #{funcResourceKey,jdbcType=VARCHAR},
+      </if>
+      <if test="funcMethod != null">
+        #{funcMethod,jdbcType=VARCHAR},
+      </if>
+      <if test="funcDescription != null">
+        #{funcDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeParam != null">
+        #{funcJudgeParam,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeParamValue != null">
+        #{funcJudgeParamValue,jdbcType=VARCHAR},
+      </if>
+      <if test="funcState != null">
+        #{funcState,jdbcType=TINYINT},
+      </if>
+      <if test="funcGpReferId != null">
+        #{funcGpReferId,jdbcType=INTEGER},
+      </if>
+      <if test="funcJudgeSubParam != null">
+        #{funcJudgeSubParam,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeSubParamValue != null">
+        #{funcJudgeSubParamValue,jdbcType=VARCHAR},
+      </if>
+      <if test="funcGpName != null">
+        #{funcGpName,jdbcType=VARCHAR},
+      </if>
+      <if test="funcSubGpName != null">
+        #{funcSubGpName,jdbcType=VARCHAR},
+      </if>
+      <if test="funcImplPath != null">
+        #{funcImplPath,jdbcType=VARCHAR},
+      </if>
+      <if test="funcLevel != null">
+        #{funcLevel,jdbcType=SMALLINT},
+      </if>
+      <if test="funcMainDescription != null">
+        #{funcMainDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeCondition != null">
+        #{funcJudgeCondition,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="common.pojo.ad_guider.PrFuncs">
+    update ad_guider.pr_funcs
+    <set>
+      <if test="funcResourceKey != null">
+        funcResourceKey = #{funcResourceKey,jdbcType=VARCHAR},
+      </if>
+      <if test="funcMethod != null">
+        funcMethod = #{funcMethod,jdbcType=VARCHAR},
+      </if>
+      <if test="funcDescription != null">
+        funcDescription = #{funcDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeParam != null">
+        funcJudgeParam = #{funcJudgeParam,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeParamValue != null">
+        funcJudgeParamValue = #{funcJudgeParamValue,jdbcType=VARCHAR},
+      </if>
+      <if test="funcState != null">
+        funcState = #{funcState,jdbcType=TINYINT},
+      </if>
+      <if test="funcGpReferId != null">
+        funcGpReferId = #{funcGpReferId,jdbcType=INTEGER},
+      </if>
+      <if test="funcJudgeSubParam != null">
+        funcJudgeSubParam = #{funcJudgeSubParam,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeSubParamValue != null">
+        funcJudgeSubParamValue = #{funcJudgeSubParamValue,jdbcType=VARCHAR},
+      </if>
+      <if test="funcGpName != null">
+        funcGpName = #{funcGpName,jdbcType=VARCHAR},
+      </if>
+      <if test="funcSubGpName != null">
+        funcSubGpName = #{funcSubGpName,jdbcType=VARCHAR},
+      </if>
+      <if test="funcImplPath != null">
+        funcImplPath = #{funcImplPath,jdbcType=VARCHAR},
+      </if>
+      <if test="funcLevel != null">
+        funcLevel = #{funcLevel,jdbcType=SMALLINT},
+      </if>
+      <if test="funcMainDescription != null">
+        funcMainDescription = #{funcMainDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="funcJudgeCondition != null">
+        funcJudgeCondition = #{funcJudgeCondition,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where funcId = #{funcId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="common.pojo.ad_guider.PrFuncs">
+    update ad_guider.pr_funcs
+    set funcResourceKey = #{funcResourceKey,jdbcType=VARCHAR},
+      funcMethod = #{funcMethod,jdbcType=VARCHAR},
+      funcDescription = #{funcDescription,jdbcType=VARCHAR},
+      funcJudgeParam = #{funcJudgeParam,jdbcType=VARCHAR},
+      funcJudgeParamValue = #{funcJudgeParamValue,jdbcType=VARCHAR},
+      funcState = #{funcState,jdbcType=TINYINT},
+      funcGpReferId = #{funcGpReferId,jdbcType=INTEGER},
+      funcJudgeSubParam = #{funcJudgeSubParam,jdbcType=VARCHAR},
+      funcJudgeSubParamValue = #{funcJudgeSubParamValue,jdbcType=VARCHAR},
+      funcGpName = #{funcGpName,jdbcType=VARCHAR},
+      funcSubGpName = #{funcSubGpName,jdbcType=VARCHAR},
+      funcImplPath = #{funcImplPath,jdbcType=VARCHAR},
+      funcLevel = #{funcLevel,jdbcType=SMALLINT},
+      funcMainDescription = #{funcMainDescription,jdbcType=VARCHAR},
+      funcJudgeCondition = #{funcJudgeCondition,jdbcType=LONGVARCHAR}
+    where funcId = #{funcId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="common.pojo.ad_guider.PrFuncs">
+    update ad_guider.pr_funcs
+    set funcResourceKey = #{funcResourceKey,jdbcType=VARCHAR},
+      funcMethod = #{funcMethod,jdbcType=VARCHAR},
+      funcDescription = #{funcDescription,jdbcType=VARCHAR},
+      funcJudgeParam = #{funcJudgeParam,jdbcType=VARCHAR},
+      funcJudgeParamValue = #{funcJudgeParamValue,jdbcType=VARCHAR},
+      funcState = #{funcState,jdbcType=TINYINT},
+      funcGpReferId = #{funcGpReferId,jdbcType=INTEGER},
+      funcJudgeSubParam = #{funcJudgeSubParam,jdbcType=VARCHAR},
+      funcJudgeSubParamValue = #{funcJudgeSubParamValue,jdbcType=VARCHAR},
+      funcGpName = #{funcGpName,jdbcType=VARCHAR},
+      funcSubGpName = #{funcSubGpName,jdbcType=VARCHAR},
+      funcImplPath = #{funcImplPath,jdbcType=VARCHAR},
+      funcLevel = #{funcLevel,jdbcType=SMALLINT},
+      funcMainDescription = #{funcMainDescription,jdbcType=VARCHAR}
+    where funcId = #{funcId,jdbcType=INTEGER}
+  </update>
+</mapper>
