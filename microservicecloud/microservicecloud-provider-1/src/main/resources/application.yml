@@ -35,7 +35,9 @@ logging:
 eureka: #\u5BA2\u6237\u7AEF\u6CE8\u518C\u5165eureka\u6CE8\u518C\u5217\u8868
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+#      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://microservicecloud-eureka-1.com:7001/eureka/,http://microservicecloud-eureka-2
+      .com:7002/eureka/,http://microservicecloud-eureka-3.com:7003/eureka/ #eureka\u96C6\u7FA4
   instance:
     instance-id: microservicecloud-provider-1-8001 #\u81EA\u5B9A\u4E49\u670D\u52A1\u540D\u79F0\u4FE1\u606F
     prefer-ip-address: true #\u8BBF\u95EE\u8DEF\u5F84\u53EF\u4EE5\u663E\u793Aip\u5730\u5740
