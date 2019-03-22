@@ -18,8 +18,8 @@ public class ProviderController {
 	@Autowired
 	private ProviderService providerServiceImpl;
 
-	@RequestMapping(name = "获取账户信息", value = "/test")
-	public Boolean test() {
-		return providerServiceImpl.test();
+	@RequestMapping(name = "获取注册中心服务列表", value = "/discovery")
+	public Object discovery() {
+		return providerServiceImpl.discovery();
 	}
 }

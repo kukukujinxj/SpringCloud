@@ -3,4 +3,4 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
-rootProject.name = 'microservicecloud-eureka'
+rootProject.name = 'microservicecloud-eureka-1'

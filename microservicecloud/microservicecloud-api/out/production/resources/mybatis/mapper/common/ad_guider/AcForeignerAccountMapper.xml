@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="common.mapper.ad_guider.AcForeignerAccountMapper">
+  <resultMap id="BaseResultMap" type="common.pojo.ad_guider.AcForeignerAccount">
+    <id column="fAid" jdbcType="INTEGER" property="fAid" />
+    <result column="faShowName" jdbcType="VARCHAR" property="faShowName" />
+    <result column="faLoginName" jdbcType="VARCHAR" property="faLoginName" />
+    <result column="faToken" jdbcType="VARCHAR" property="faToken" />
+    <result column="faImage" jdbcType="VARCHAR" property="faImage" />
+    <result column="faBelongToAccount" jdbcType="INTEGER" property="faBelongToAccount" />
+    <result column="faType" jdbcType="INTEGER" property="faType" />
+    <result column="faState" jdbcType="TINYINT" property="faState" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="common.pojo.ad_guider.AcForeignerAccount">
+    <result column="faInfoJson" jdbcType="LONGVARCHAR" property="faInfoJson" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    fAid, faShowName, faLoginName, faToken, faImage, faBelongToAccount, faType, faState
+  </sql>
+  <sql id="Blob_Column_List">
+    faInfoJson
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="ResultMapWithBLOBs">
+    select 
+    <include refid="Base_Column_List" />
+    ,
+    <include refid="Blob_Column_List" />
+    from ad_guider.ac_foreigner_account
+    where fAid = #{fAid,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ad_guider.ac_foreigner_account
+    where fAid = #{fAid,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="common.pojo.ad_guider.AcForeignerAccount">
+    insert into ad_guider.ac_foreigner_account (fAid, faShowName, faLoginName, 
+      faToken, faImage, faBelongToAccount, 
+      faType, faState, faInfoJson
+      )
+    values (#{fAid,jdbcType=INTEGER}, #{faShowName,jdbcType=VARCHAR}, #{faLoginName,jdbcType=VARCHAR}, 
+      #{faToken,jdbcType=VARCHAR}, #{faImage,jdbcType=VARCHAR}, #{faBelongToAccount,jdbcType=INTEGER}, 
+      #{faType,jdbcType=INTEGER}, #{faState,jdbcType=TINYINT}, #{faInfoJson,jdbcType=LONGVARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="common.pojo.ad_guider.AcForeignerAccount">
+    insert into ad_guider.ac_foreigner_account
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="fAid != null">
+        fAid,
+      </if>
+      <if test="faShowName != null">
+        faShowName,
+      </if>
+      <if test="faLoginName != null">
+        faLoginName,
+      </if>
+      <if test="faToken != null">
+        faToken,
+      </if>
+      <if test="faImage != null">
+        faImage,
+      </if>
+      <if test="faBelongToAccount != null">
+        faBelongToAccount,
+      </if>
+      <if test="faType != null">
+        faType,
+      </if>
+      <if test="faState != null">
+        faState,
+      </if>
+      <if test="faInfoJson != null">
+        faInfoJson,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="fAid != null">
+        #{fAid,jdbcType=INTEGER},
+      </if>
+      <if test="faShowName != null">
+        #{faShowName,jdbcType=VARCHAR},
+      </if>
+      <if test="faLoginName != null">
+        #{faLoginName,jdbcType=VARCHAR},
+      </if>
+      <if test="faToken != null">
+        #{faToken,jdbcType=VARCHAR},
+      </if>
+      <if test="faImage != null">
+        #{faImage,jdbcType=VARCHAR},
+      </if>
+      <if test="faBelongToAccount != null">
+        #{faBelongToAccount,jdbcType=INTEGER},
+      </if>
+      <if test="faType != null">
+        #{faType,jdbcType=INTEGER},
+      </if>
+      <if test="faState != null">
+        #{faState,jdbcType=TINYINT},
+      </if>
+      <if test="faInfoJson != null">
+        #{faInfoJson,jdbcType=LONGVARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="common.pojo.ad_guider.AcForeignerAccount">
+    update ad_guider.ac_foreigner_account
+    <set>
+      <if test="faShowName != null">
+        faShowName = #{faShowName,jdbcType=VARCHAR},
+      </if>
+      <if test="faLoginName != null">
+        faLoginName = #{faLoginName,jdbcType=VARCHAR},
+      </if>
+      <if test="faToken != null">
+        faToken = #{faToken,jdbcType=VARCHAR},
+      </if>
+      <if test="faImage != null">
+        faImage = #{faImage,jdbcType=VARCHAR},
+      </if>
+      <if test="faBelongToAccount != null">
+        faBelongToAccount = #{faBelongToAccount,jdbcType=INTEGER},
+      </if>
+      <if test="faType != null">
+        faType = #{faType,jdbcType=INTEGER},
+      </if>
+      <if test="faState != null">
+        faState = #{faState,jdbcType=TINYINT},
+      </if>
+      <if test="faInfoJson != null">
+        faInfoJson = #{faInfoJson,jdbcType=LONGVARCHAR},
+      </if>
+    </set>
+    where fAid = #{fAid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKeyWithBLOBs" parameterType="common.pojo.ad_guider.AcForeignerAccount">
+    update ad_guider.ac_foreigner_account
+    set faShowName = #{faShowName,jdbcType=VARCHAR},
+      faLoginName = #{faLoginName,jdbcType=VARCHAR},
+      faToken = #{faToken,jdbcType=VARCHAR},
+      faImage = #{faImage,jdbcType=VARCHAR},
+      faBelongToAccount = #{faBelongToAccount,jdbcType=INTEGER},
+      faType = #{faType,jdbcType=INTEGER},
+      faState = #{faState,jdbcType=TINYINT},
+      faInfoJson = #{faInfoJson,jdbcType=LONGVARCHAR}
+    where fAid = #{fAid,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="common.pojo.ad_guider.AcForeignerAccount">
+    update ad_guider.ac_foreigner_account
+    set faShowName = #{faShowName,jdbcType=VARCHAR},
+      faLoginName = #{faLoginName,jdbcType=VARCHAR},
+      faToken = #{faToken,jdbcType=VARCHAR},
+      faImage = #{faImage,jdbcType=VARCHAR},
+      faBelongToAccount = #{faBelongToAccount,jdbcType=INTEGER},
+      faType = #{faType,jdbcType=INTEGER},
+      faState = #{faState,jdbcType=TINYINT}
+    where fAid = #{fAid,jdbcType=INTEGER}
+  </update>
+</mapper>

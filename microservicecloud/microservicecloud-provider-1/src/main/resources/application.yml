@@ -1,23 +1,23 @@
 server:
   port: 8001
 mybatis:
-  config-location: classpath:mybatis/config/mybatis.cfg.xml
-  type-aliases-package: common.pojo.*
-  mapper-locations: classpath:mybatis/mapper/**/*.xml
+  config-location: classpath:mybatis/config/mybatis.cfg.xml #mybatis\u914D\u7F6E\u6587\u4EF6\u8DEF\u5F84
+  type-aliases-package: common.pojo.* #\u6240\u6709pojo\u7C7B\u522B\u540D\u6240\u5728\u8DEF\u5F84
+  mapper-locations: classpath:mybatis/mapper/**/*.xml #mapper\u6620\u5C04\u6587\u4EF6
 spring:
   application:
-    name: microservicecloud-ProviderMapper-1
+    name: microservicecloud-provider-1
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://112.74.19.176:3306/common_account
+    type: com.alibaba.druid.pool.DruidDataSource #\u5F53\u524D\u6570\u636E\u6E90\u64CD\u4F5C\u7C7B\u578B
+    driver-class-name: com.mysql.cj.jdbc.Driver #mysql\u9A71\u52A8\u5305
+    url: jdbc:mysql://112.74.19.176:3306/common_account # \u6570\u636E\u5E93\u540D\u79F0
     username: power_ad
     password: codespace0@#$
     dbcp2:
-      min-idle: 5
-      initial-size: 5
-      max-idle: 5
-      max-wait-millis: 200
+      min-idle: 5 #\u6570\u636E\u5E93\u8FDE\u63A5\u6C60\u7684\u6700\u5C0F\u7EF4\u6301\u8FDE\u63A5\u6570
+      initial-size: 5 #\u521D\u59CB\u5316\u8FDE\u63A5\u6570
+      max-idle: 5 #\u6700\u5927\u8FDE\u63A5\u6570
+      max-wait-millis: 200 #\u7B49\u5F85\u8FDE\u63A5\u83B7\u53D6\u7684\u6700\u5927\u8D85\u65F6\u65F6\u95F4
   redis:
     database: 0
     timeout: 300ms
@@ -32,3 +32,18 @@ spring:
         min-idle: 0
 logging:
   config: classpath:log4j2/log4j2.cfg.xml
+eureka: #\u5BA2\u6237\u7AEF\u6CE8\u518C\u5165eureka\u6CE8\u518C\u5217\u8868
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+  instance:
+    instance-id: microservicecloud-provider-1-8001 #\u81EA\u5B9A\u4E49\u670D\u52A1\u540D\u79F0\u4FE1\u606F
+    prefer-ip-address: true #\u8BBF\u95EE\u8DEF\u5F84\u53EF\u4EE5\u663E\u793Aip\u5730\u5740
+management: #\u901A\u8FC7http\u66B4\u9732actuator info\u7AEF\u53E3
+  endpoints:
+    web:
+      exposure:
+        include: info
+info: #\u5411info\u4E2D\u5199\u5165\u6570\u636E\uFF0C\u901A\u8FC7actuator info\u8BBF\u95EE
+  app.name: codespace-microservicecloud
+  company.name: www.codespace.com

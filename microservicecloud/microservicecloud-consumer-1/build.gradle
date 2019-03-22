@@ -1,4 +1,3 @@
 dependencies {
-//    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
     compile project(path: ":microservicecloud-api")
 }

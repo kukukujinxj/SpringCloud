@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="demo_main" target="1.8" />
       <module name="demo_test" target="1.8" />
+      <module name="microservicecloud-eureka_main" target="1.8" />
+      <module name="microservicecloud-eureka_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

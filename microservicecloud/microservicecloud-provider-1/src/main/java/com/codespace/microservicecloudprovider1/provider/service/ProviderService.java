@@ -7,5 +7,5 @@ package com.codespace.microservicecloudprovider1.provider.service;
  * Time: 11:45
  */
 public interface ProviderService {
-	Boolean test();
+	Object discovery();
 }

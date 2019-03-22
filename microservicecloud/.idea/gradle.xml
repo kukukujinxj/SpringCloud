@@ -12,7 +12,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/microservicecloud-api" />
             <option value="$PROJECT_DIR$/microservicecloud-consumer-1" />
-            <option value="$PROJECT_DIR$/microservicecloud-eureka" />
+            <option value="$PROJECT_DIR$/microservicecloud-eureka-1" />
+            <option value="$PROJECT_DIR$/microservicecloud-eureka-2" />
             <option value="$PROJECT_DIR$/microservicecloud-provider-1" />
           </set>
         </option>

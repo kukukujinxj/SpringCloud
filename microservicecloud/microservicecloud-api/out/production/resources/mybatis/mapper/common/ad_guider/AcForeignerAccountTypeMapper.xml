@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="common.mapper.ad_guider.AcForeignerAccountTypeMapper">
+  <resultMap id="BaseResultMap" type="common.pojo.ad_guider.AcForeignerAccountType">
+    <id column="fAccountId" jdbcType="INTEGER" property="fAccountId" />
+    <result column="fAccountName" jdbcType="VARCHAR" property="fAccountName" />
+    <result column="fAccountKey" jdbcType="VARCHAR" property="fAccountKey" />
+    <result column="fAccountSecret" jdbcType="VARCHAR" property="fAccountSecret" />
+    <result column="fAccountLoginUrl" jdbcType="VARCHAR" property="fAccountLoginUrl" />
+    <result column="fAccountRegisterUrl" jdbcType="VARCHAR" property="fAccountRegisterUrl" />
+    <result column="fAccountLoginSuccessUrl" jdbcType="VARCHAR" property="fAccountLoginSuccessUrl" />
+    <result column="fAccountLoginFailUrl" jdbcType="VARCHAR" property="fAccountLoginFailUrl" />
+    <result column="fAccountDomainName" jdbcType="VARCHAR" property="fAccountDomainName" />
+    <result column="faOpenAccountKey" jdbcType="VARCHAR" property="faOpenAccountKey" />
+    <result column="faOpenAccountSecret" jdbcType="VARCHAR" property="faOpenAccountSecret" />
+    <result column="faAccountLoginPcSuccessUrl" jdbcType="VARCHAR" property="faAccountLoginPcSuccessUrl" />
+    <result column="faAccountLoginPcFailUrl" jdbcType="VARCHAR" property="faAccountLoginPcFailUrl" />
+    <result column="faAccountTypeState" jdbcType="TINYINT" property="faAccountTypeState" />
+    <result column="faAccountCallbackUrl" jdbcType="VARCHAR" property="faAccountCallbackUrl" />
+    <result column="faAccountBindStategy" jdbcType="TINYINT" property="faAccountBindStategy" />
+    <result column="faAccountAsync" jdbcType="TINYINT" property="faAccountAsync" />
+    <result column="faAccountEndPoint" jdbcType="VARCHAR" property="faAccountEndPoint" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    fAccountId, fAccountName, fAccountKey, fAccountSecret, fAccountLoginUrl, fAccountRegisterUrl, 
+    fAccountLoginSuccessUrl, fAccountLoginFailUrl, fAccountDomainName, faOpenAccountKey, 
+    faOpenAccountSecret, faAccountLoginPcSuccessUrl, faAccountLoginPcFailUrl, faAccountTypeState, 
+    faAccountCallbackUrl, faAccountBindStategy, faAccountAsync, faAccountEndPoint
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from ad_guider.ac_foreigner_account_type
+    where fAccountId = #{fAccountId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ad_guider.ac_foreigner_account_type
+    where fAccountId = #{fAccountId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="common.pojo.ad_guider.AcForeignerAccountType">
+    insert into ad_guider.ac_foreigner_account_type (fAccountId, fAccountName, fAccountKey, 
+      fAccountSecret, fAccountLoginUrl, fAccountRegisterUrl, 
+      fAccountLoginSuccessUrl, fAccountLoginFailUrl, 
+      fAccountDomainName, faOpenAccountKey, faOpenAccountSecret, 
+      faAccountLoginPcSuccessUrl, faAccountLoginPcFailUrl, 
+      faAccountTypeState, faAccountCallbackUrl, 
+      faAccountBindStategy, faAccountAsync, faAccountEndPoint
+      )
+    values (#{fAccountId,jdbcType=INTEGER}, #{fAccountName,jdbcType=VARCHAR}, #{fAccountKey,jdbcType=VARCHAR}, 
+      #{fAccountSecret,jdbcType=VARCHAR}, #{fAccountLoginUrl,jdbcType=VARCHAR}, #{fAccountRegisterUrl,jdbcType=VARCHAR}, 
+      #{fAccountLoginSuccessUrl,jdbcType=VARCHAR}, #{fAccountLoginFailUrl,jdbcType=VARCHAR}, 
+      #{fAccountDomainName,jdbcType=VARCHAR}, #{faOpenAccountKey,jdbcType=VARCHAR}, #{faOpenAccountSecret,jdbcType=VARCHAR}, 
+      #{faAccountLoginPcSuccessUrl,jdbcType=VARCHAR}, #{faAccountLoginPcFailUrl,jdbcType=VARCHAR}, 
+      #{faAccountTypeState,jdbcType=TINYINT}, #{faAccountCallbackUrl,jdbcType=VARCHAR}, 
+      #{faAccountBindStategy,jdbcType=TINYINT}, #{faAccountAsync,jdbcType=TINYINT}, #{faAccountEndPoint,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="common.pojo.ad_guider.AcForeignerAccountType">
+    insert into ad_guider.ac_foreigner_account_type
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="fAccountId != null">
+        fAccountId,
+      </if>
+      <if test="fAccountName != null">
+        fAccountName,
+      </if>
+      <if test="fAccountKey != null">
+        fAccountKey,
+      </if>
+      <if test="fAccountSecret != null">
+        fAccountSecret,
+      </if>
+      <if test="fAccountLoginUrl != null">
+        fAccountLoginUrl,
+      </if>
+      <if test="fAccountRegisterUrl != null">
+        fAccountRegisterUrl,
+      </if>
+      <if test="fAccountLoginSuccessUrl != null">
+        fAccountLoginSuccessUrl,
+      </if>
+      <if test="fAccountLoginFailUrl != null">
+        fAccountLoginFailUrl,
+      </if>
+      <if test="fAccountDomainName != null">
+        fAccountDomainName,
+      </if>
+      <if test="faOpenAccountKey != null">
+        faOpenAccountKey,
+      </if>
+      <if test="faOpenAccountSecret != null">
+        faOpenAccountSecret,
+      </if>
+      <if test="faAccountLoginPcSuccessUrl != null">
+        faAccountLoginPcSuccessUrl,
+      </if>
+      <if test="faAccountLoginPcFailUrl != null">
+        faAccountLoginPcFailUrl,
+      </if>
+      <if test="faAccountTypeState != null">
+        faAccountTypeState,
+      </if>
+      <if test="faAccountCallbackUrl != null">
+        faAccountCallbackUrl,
+      </if>
+      <if test="faAccountBindStategy != null">
+        faAccountBindStategy,
+      </if>
+      <if test="faAccountAsync != null">
+        faAccountAsync,
+      </if>
+      <if test="faAccountEndPoint != null">
+        faAccountEndPoint,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="fAccountId != null">
+        #{fAccountId,jdbcType=INTEGER},
+      </if>
+      <if test="fAccountName != null">
+        #{fAccountName,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountKey != null">
+        #{fAccountKey,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountSecret != null">
+        #{fAccountSecret,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountLoginUrl != null">
+        #{fAccountLoginUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountRegisterUrl != null">
+        #{fAccountRegisterUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountLoginSuccessUrl != null">
+        #{fAccountLoginSuccessUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountLoginFailUrl != null">
+        #{fAccountLoginFailUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountDomainName != null">
+        #{fAccountDomainName,jdbcType=VARCHAR},
+      </if>
+      <if test="faOpenAccountKey != null">
+        #{faOpenAccountKey,jdbcType=VARCHAR},
+      </if>
+      <if test="faOpenAccountSecret != null">
+        #{faOpenAccountSecret,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountLoginPcSuccessUrl != null">
+        #{faAccountLoginPcSuccessUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountLoginPcFailUrl != null">
+        #{faAccountLoginPcFailUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountTypeState != null">
+        #{faAccountTypeState,jdbcType=TINYINT},
+      </if>
+      <if test="faAccountCallbackUrl != null">
+        #{faAccountCallbackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountBindStategy != null">
+        #{faAccountBindStategy,jdbcType=TINYINT},
+      </if>
+      <if test="faAccountAsync != null">
+        #{faAccountAsync,jdbcType=TINYINT},
+      </if>
+      <if test="faAccountEndPoint != null">
+        #{faAccountEndPoint,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="common.pojo.ad_guider.AcForeignerAccountType">
+    update ad_guider.ac_foreigner_account_type
+    <set>
+      <if test="fAccountName != null">
+        fAccountName = #{fAccountName,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountKey != null">
+        fAccountKey = #{fAccountKey,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountSecret != null">
+        fAccountSecret = #{fAccountSecret,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountLoginUrl != null">
+        fAccountLoginUrl = #{fAccountLoginUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountRegisterUrl != null">
+        fAccountRegisterUrl = #{fAccountRegisterUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountLoginSuccessUrl != null">
+        fAccountLoginSuccessUrl = #{fAccountLoginSuccessUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountLoginFailUrl != null">
+        fAccountLoginFailUrl = #{fAccountLoginFailUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="fAccountDomainName != null">
+        fAccountDomainName = #{fAccountDomainName,jdbcType=VARCHAR},
+      </if>
+      <if test="faOpenAccountKey != null">
+        faOpenAccountKey = #{faOpenAccountKey,jdbcType=VARCHAR},
+      </if>
+      <if test="faOpenAccountSecret != null">
+        faOpenAccountSecret = #{faOpenAccountSecret,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountLoginPcSuccessUrl != null">
+        faAccountLoginPcSuccessUrl = #{faAccountLoginPcSuccessUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountLoginPcFailUrl != null">
+        faAccountLoginPcFailUrl = #{faAccountLoginPcFailUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountTypeState != null">
+        faAccountTypeState = #{faAccountTypeState,jdbcType=TINYINT},
+      </if>
+      <if test="faAccountCallbackUrl != null">
+        faAccountCallbackUrl = #{faAccountCallbackUrl,jdbcType=VARCHAR},
+      </if>
+      <if test="faAccountBindStategy != null">
+        faAccountBindStategy = #{faAccountBindStategy,jdbcType=TINYINT},
+      </if>
+      <if test="faAccountAsync != null">
+        faAccountAsync = #{faAccountAsync,jdbcType=TINYINT},
+      </if>
+      <if test="faAccountEndPoint != null">
+        faAccountEndPoint = #{faAccountEndPoint,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where fAccountId = #{fAccountId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="common.pojo.ad_guider.AcForeignerAccountType">
+    update ad_guider.ac_foreigner_account_type
+    set fAccountName = #{fAccountName,jdbcType=VARCHAR},
+      fAccountKey = #{fAccountKey,jdbcType=VARCHAR},
+      fAccountSecret = #{fAccountSecret,jdbcType=VARCHAR},
+      fAccountLoginUrl = #{fAccountLoginUrl,jdbcType=VARCHAR},
+      fAccountRegisterUrl = #{fAccountRegisterUrl,jdbcType=VARCHAR},
+      fAccountLoginSuccessUrl = #{fAccountLoginSuccessUrl,jdbcType=VARCHAR},
+      fAccountLoginFailUrl = #{fAccountLoginFailUrl,jdbcType=VARCHAR},
+      fAccountDomainName = #{fAccountDomainName,jdbcType=VARCHAR},
+      faOpenAccountKey = #{faOpenAccountKey,jdbcType=VARCHAR},
+      faOpenAccountSecret = #{faOpenAccountSecret,jdbcType=VARCHAR},
+      faAccountLoginPcSuccessUrl = #{faAccountLoginPcSuccessUrl,jdbcType=VARCHAR},
+      faAccountLoginPcFailUrl = #{faAccountLoginPcFailUrl,jdbcType=VARCHAR},
+      faAccountTypeState = #{faAccountTypeState,jdbcType=TINYINT},
+      faAccountCallbackUrl = #{faAccountCallbackUrl,jdbcType=VARCHAR},
+      faAccountBindStategy = #{faAccountBindStategy,jdbcType=TINYINT},
+      faAccountAsync = #{faAccountAsync,jdbcType=TINYINT},
+      faAccountEndPoint = #{faAccountEndPoint,jdbcType=VARCHAR}
+    where fAccountId = #{fAccountId,jdbcType=INTEGER}
+  </update>
+</mapper>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="common.mapper.ad_guider.PrGroupFuncRelationMapper">
+  <resultMap id="BaseResultMap" type="common.pojo.ad_guider.PrGroupFuncRelation">
+    <id column="pfrId" jdbcType="INTEGER" property="pfrId" />
+    <result column="pfrFgId" jdbcType="INTEGER" property="pfrFgId" />
+    <result column="pfrAgId" jdbcType="INTEGER" property="pfrAgId" />
+    <result column="pfrType" jdbcType="TINYINT" property="pfrType" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    pfrId, pfrFgId, pfrAgId, pfrType
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from ad_guider.pr_group_func_relation
+    where pfrId = #{pfrId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from ad_guider.pr_group_func_relation
+    where pfrId = #{pfrId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="common.pojo.ad_guider.PrGroupFuncRelation">
+    insert into ad_guider.pr_group_func_relation (pfrId, pfrFgId, pfrAgId, 
+      pfrType)
+    values (#{pfrId,jdbcType=INTEGER}, #{pfrFgId,jdbcType=INTEGER}, #{pfrAgId,jdbcType=INTEGER}, 
+      #{pfrType,jdbcType=TINYINT})
+  </insert>
+  <insert id="insertSelective" parameterType="common.pojo.ad_guider.PrGroupFuncRelation">
+    insert into ad_guider.pr_group_func_relation
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="pfrId != null">
+        pfrId,
+      </if>
+      <if test="pfrFgId != null">
+        pfrFgId,
+      </if>
+      <if test="pfrAgId != null">
+        pfrAgId,
+      </if>
+      <if test="pfrType != null">
+        pfrType,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="pfrId != null">
+        #{pfrId,jdbcType=INTEGER},
+      </if>
+      <if test="pfrFgId != null">
+        #{pfrFgId,jdbcType=INTEGER},
+      </if>
+      <if test="pfrAgId != null">
+        #{pfrAgId,jdbcType=INTEGER},
+      </if>
+      <if test="pfrType != null">
+        #{pfrType,jdbcType=TINYINT},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="common.pojo.ad_guider.PrGroupFuncRelation">
+    update ad_guider.pr_group_func_relation
+    <set>
+      <if test="pfrFgId != null">
+        pfrFgId = #{pfrFgId,jdbcType=INTEGER},
+      </if>
+      <if test="pfrAgId != null">
+        pfrAgId = #{pfrAgId,jdbcType=INTEGER},
+      </if>
+      <if test="pfrType != null">
+        pfrType = #{pfrType,jdbcType=TINYINT},
+      </if>
+    </set>
+    where pfrId = #{pfrId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="common.pojo.ad_guider.PrGroupFuncRelation">
+    update ad_guider.pr_group_func_relation
+    set pfrFgId = #{pfrFgId,jdbcType=INTEGER},
+      pfrAgId = #{pfrAgId,jdbcType=INTEGER},
+      pfrType = #{pfrType,jdbcType=TINYINT}
+    where pfrId = #{pfrId,jdbcType=INTEGER}
+  </update>
+</mapper>
