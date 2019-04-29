@@ -15,7 +15,8 @@ import org.springframework.web.client.RestTemplate;
 @RequestMapping(name = "服务消费者", value = "/sv1/consumer")
 public class ConsumerController {
 
-	private static final String REST_URL_PREFIX = "http://localhost:8001";
+//	private static final String REST_URL_PREFIX = "http://localhost:8001";
+	private static final String REST_URL_PREFIX = "http://MICROSERVICECLOUD-PROVIDER";
 
 	@Autowired
 	private RestTemplate restTemplate;

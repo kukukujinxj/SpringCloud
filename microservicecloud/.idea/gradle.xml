@@ -12,10 +12,13 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/microservicecloud-api" />
             <option value="$PROJECT_DIR$/microservicecloud-consumer-1" />
+            <option value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
             <option value="$PROJECT_DIR$/microservicecloud-eureka-1" />
             <option value="$PROJECT_DIR$/microservicecloud-eureka-2" />
             <option value="$PROJECT_DIR$/microservicecloud-eureka-3" />
             <option value="$PROJECT_DIR$/microservicecloud-provider-1" />
+            <option value="$PROJECT_DIR$/microservicecloud-provider-2" />
+            <option value="$PROJECT_DIR$/microservicecloud-provider-3" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -2,12 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59a1edf9-2b7b-47b8-918b-6185336e918d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/ribbon/rule/MySelfRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/cfgbeans/RestConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/cfgbeans/MybatisConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/cfgbeans/RedisConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/mapper/ProviderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/service/Impl/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/service/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/resources/log4j2/log4j2.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/resources/mybatis/config/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-2/src/main/resources/mybatis/mapper/ProviderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/cfgbeans/MybatisConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/cfgbeans/RedisConfigBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/controller/ProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/mapper/ProviderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/service/Impl/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/service/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/resources/log4j2/log4j2.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/resources/mybatis/config/mybatis.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-3/src/main/resources/mybatis/mapper/ProviderMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-eureka-2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-eureka-2/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/RestConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/RestConfigBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/MybatisConfigBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/MybatisConfigBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
@@ -38,6 +66,15 @@
     <ignored path="$PROJECT_DIR$/microservicecloud-eureka-3/.gradle/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-eureka-3/build/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-eureka-3/out/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-2/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-2/build/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-2/out/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-3/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-3/build/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-provider-3/out/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-feign/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-feign/build/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-feign/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +91,9 @@
     <projectState path="$PROJECT_DIR$/microservicecloud-consumer-1">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/microservicecloud-consumer-feign">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/microservicecloud-eureka">
       <ProjectState />
     </projectState>
@@ -67,6 +107,12 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/microservicecloud-provider-1">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservicecloud-provider-2">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservicecloud-provider-3">
       <ProjectState />
     </projectState>
   </component>
@@ -85,12 +131,41 @@
         <task path="$PROJECT_DIR$/microservicecloud-provider-1">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/microservicecloud-provider-2">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="microservicecloud" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="microservicecloud" type="f1a62948:ProjectNode" />
+                <item name=":microservicecloud-consumer-feign" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="microservicecloud" type="f1a62948:ProjectNode" />
+                <item name=":microservicecloud-consumer-feign" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="microservicecloud" type="f1a62948:ProjectNode" />
+                <item name=":microservicecloud-consumer-feign" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="microservicecloud" type="f1a62948:ProjectNode" />
+                <item name=":microservicecloud-consumer-feign" type="2d1252cf:ModuleNode" />
+                <item name="Source Sets" type="e897c970:GradleViewContributor$SourceSetsNode" />
+                <item name="main" type="396b929e:GradleViewContributor$SourceSetNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
               </path>
             </expand>
             <select />
@@ -103,84 +178,97 @@
     <session id="164668463">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="gradle" value="56" />
-          <entry key="java" value="75" />
-          <entry key="xml" value="19" />
-          <entry key="yml" value="30" />
+          <entry key="gradle" value="104" />
+          <entry key="java" value="148" />
+          <entry key="xml" value="27" />
+          <entry key="yml" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Groovy" value="56" />
-          <entry key="JAVA" value="75" />
-          <entry key="XML" value="19" />
-          <entry key="YAML" value="30" />
+          <entry key="Groovy" value="104" />
+          <entry key="JAVA" value="148" />
+          <entry key="XML" value="27" />
+          <entry key="YAML" value="62" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="gradle" value="375" />
-          <entry key="java" value="1533" />
+          <entry key="gradle" value="436" />
+          <entry key="java" value="1885" />
           <entry key="properties" value="21" />
           <entry key="xml" value="198" />
-          <entry key="yml" value="1538" />
+          <entry key="yml" value="1565" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="375" />
-          <entry key="JAVA" value="1533" />
+          <entry key="Groovy" value="436" />
+          <entry key="JAVA" value="1885" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="21" />
           <entry key="XML" value="198" />
-          <entry key="YAML" value="1538" />
+          <entry key="YAML" value="1565" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="120" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="120" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-2/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="112" selection-start-line="10" selection-start-column="112" selection-end-line="10" selection-end-column="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-3/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="120" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="120" />
+            <state relative-caret-position="21">
+              <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+            <state relative-caret-position="273">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="1" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/ProviderService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -191,8 +279,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -243,6 +331,10 @@
                 <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-1" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
+                <option name="name" value=":microservicecloud-consumer-feign" />
+                <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value=":microservicecloud-eureka-1" />
                 <option name="path" value="$PROJECT_DIR$/microservicecloud-eureka-1" />
               </ExternalProjectPojo>
@@ -257,6 +349,14 @@
               <ExternalProjectPojo>
                 <option name="name" value=":microservicecloud-provider-1" />
                 <option name="path" value="$PROJECT_DIR$/microservicecloud-provider-1" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":microservicecloud-provider-2" />
+                <option name="path" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":microservicecloud-provider-3" />
+                <option name="path" value="$PROJECT_DIR$/microservicecloud-provider-3" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -725,151 +825,151 @@
             </list>
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/microservicecloud-eureka">
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign">
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by project ':microservicecloud-eureka'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the components produced by project ':microservicecloud-consumer-feign'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects that depend on it." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of project ':microservicecloud-eureka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the sub-projects of project ':microservicecloud-consumer-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in project ':microservicecloud-eureka'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the dependent components of components in project ':microservicecloud-consumer-feign'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in project ':microservicecloud-eureka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays all buildscript dependencies declared in project ':microservicecloud-consumer-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles test classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="testClasses" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Generates Javadoc API documentation for the main source code." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="javadoc" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="bootJar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles a jar archive containing the main classes." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of project ':microservicecloud-eureka'. [incubating]" />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the configuration model of project ':microservicecloud-consumer-feign'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes main resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from project ':microservicecloud-eureka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the tasks runnable from project ':microservicecloud-consumer-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs the unit tests." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="test" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependency management declared in project ':microservicecloud-eureka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the dependency management declared in project ':microservicecloud-consumer-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="dependencyManagement" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs this project as a Spring Boot application." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="bootRun" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles main Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="compileJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in project ':microservicecloud-eureka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the insight into a specific dependency in project ':microservicecloud-consumer-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Runs all checks." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="check" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles the outputs of this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="assemble" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Deletes the build directory." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="clean" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Compiles test Java source." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in project ':microservicecloud-eureka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays all dependencies declared in project ':microservicecloud-consumer-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Processes test resources." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="processTestResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Displays a help message." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="help" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="mbGenerator" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="build" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project and all projects it depends on." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of project ':microservicecloud-eureka'." />
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-eureka" />
+                <option name="description" value="Displays the properties of project ':microservicecloud-consumer-feign'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -1475,20 +1575,323 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-2">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':microservicecloud-provider-2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':microservicecloud-provider-2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':microservicecloud-provider-2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':microservicecloud-provider-2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':microservicecloud-provider-2'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':microservicecloud-provider-2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':microservicecloud-provider-2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':microservicecloud-provider-2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':microservicecloud-provider-2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="mbGenerator" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':microservicecloud-provider-2'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-3">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':microservicecloud-provider-3'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':microservicecloud-provider-3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':microservicecloud-provider-3'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':microservicecloud-provider-3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':microservicecloud-provider-3'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':microservicecloud-provider-3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':microservicecloud-provider-3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':microservicecloud-provider-3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':microservicecloud-provider-3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="mbGenerator" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':microservicecloud-provider-3'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-provider-3" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="29510247260558" />
+        <entry key="$PROJECT_DIR$" value="43529914550934" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="735046210" />
         <entry key="$PROJECT_DIR$/demo/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/demo/build.gradle" value="2415233099" />
         <entry key="$PROJECT_DIR$/demo/settings.gradle" value="1388283955" />
-        <entry key="$PROJECT_DIR$/microservicecloud-api/build.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-api/build.gradle" value="3836683820" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-1/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" value="3720963377" />
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" value="2003142164" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-1/settings.gradle" value="4187878476" />
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle" value="2534391326" />
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign/settings.gradle" value="616560754" />
         <entry key="$PROJECT_DIR$/microservicecloud-eureka-1/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/microservicecloud-eureka-1/build.gradle" value="4191931488" />
         <entry key="$PROJECT_DIR$/microservicecloud-eureka-1/settings.gradle" value="3254616835" />
@@ -1502,9 +1905,15 @@
         <entry key="$PROJECT_DIR$/microservicecloud-eureka/build.gradle" value="4191931488" />
         <entry key="$PROJECT_DIR$/microservicecloud-eureka/settings.gradle" value="311966596" />
         <entry key="$PROJECT_DIR$/microservicecloud-provider-1/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/microservicecloud-provider-1/build.gradle" value="3434056990" />
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-1/build.gradle" value="338705402" />
         <entry key="$PROJECT_DIR$/microservicecloud-provider-1/settings.gradle" value="3291734411" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3426063500" />
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-2/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-2/build.gradle" value="3434056990" />
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-2/settings.gradle" value="4011766344" />
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-3/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-3/build.gradle" value="3434056990" />
+        <entry key="$PROJECT_DIR$/microservicecloud-provider-3/settings.gradle" value="4127556361" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="1978576852" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1565,6 +1974,24 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-1" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.arenagod.gradle/mybatis-generator-plugin/1.4/c9639757ed02a25f7de391d03bef97d1f7c1e309/mybatis-generator-plugin-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1655,6 +2082,42 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/microservicecloud-provider-1" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/microservicecloud-provider-2">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.arenagod.gradle/mybatis-generator-plugin/1.4/c9639757ed02a25f7de391d03bef97d1f7c1e309/mybatis-generator-plugin-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/microservicecloud-provider-2" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/microservicecloud-provider-3">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.arenagod.gradle/mybatis-generator-plugin/1.4/c9639757ed02a25f7de391d03bef97d1f7c1e309/mybatis-generator-plugin-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/microservicecloud-provider-3" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -1784,17 +2247,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/pojo/common_account/PrFuncsExample.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/mapper/provider.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/controller/ConsumerController.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/cfgbeans/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/cfgbeans/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/mapper/ProviderMapper.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/mybatis/mapper/ProviderMapper.xml" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/ConfigBean.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/RestConfigBean.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/MybatisConfigBean.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/RedisConfigBean.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/mybatis/mybatis.cfg.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/mybatis/config/generator.cfg.xml" />
@@ -1807,26 +2260,44 @@
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/ProviderService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/controller/ProviderController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/MicroservicecloudProvider1Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/Impl/ProviderServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka/settings.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka/src/main/java/com/codespace/microservicecloudeureka/MicroservicecloudEurekaApplication.java" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-2/build.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-2/src/main/java/com/codespace/microservicecloudeureka2/MicroservicecloudEureka2Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-api/build.gradle" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/build.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-1/build.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-1/src/main/java/com/codespace/microservicecloudeureka1/MicroservicecloudEureka1Application.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-3/build.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-3/src/main/java/com/codespace/microservicecloudeureka3/MicroservicecloudEureka3Application.java" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-3/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-1/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-eureka-2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/MybatisConfigBean.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/RestConfigBean.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-1/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-2/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-3/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/MicroservicecloudProvider2Application.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/MicroservicecloudProvider3Application.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/service/Impl/ProviderServiceImpl.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/controller/ProviderController.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/controller/ProviderController.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/service/Impl/ProviderServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-3/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/ribbon/rule/MyRule.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/cfgbeans/RestConfigBean.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-api/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java" />
       </list>
     </option>
   </component>
@@ -1836,14 +2307,19 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="PhpServers">
     <servers />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-13" />
+    <option name="width" value="1934" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1851,6 +2327,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1861,80 +2340,120 @@
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-eureka-3" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloudconsumer1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloudconsumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloudconsumer1" type="462c0819:PsiDirectoryNode" />
+              <item name="consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
@@ -1960,15 +2479,42 @@
               <item name="microservicecloud-provider-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-provider-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloudprovider1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-provider-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloudprovider1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-provider-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloudprovider1" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1978,30 +2524,31 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553250713125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556528326512" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-1\src\main\resources\mybatis\config" />
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-1\src\main\resources\log4j2" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-consumer-feign\src\main\java\com\codespace\microservicecloudconsumerfeign" />
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-3\src\main\java\com\codespace\microservicecloudprovider3" />
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-3\src\main\resources" />
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-2\src\main\resources" />
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-2\src\main\java\com\codespace\microservicecloudprovider2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.codespace.microservicecloudprovider1.provider.cfgbeans" />
       <recent name="com.codeservice.microservicecloudconsumer1.cfgbeans" />
       <recent name="common.cfgbeans" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-api\src\main\resources" />
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-1\src\main\resources" />
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-consumer-1\src\main\resources" />
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-api\src\main\java\common\pojo" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-1\src\main\resources\mybatis\config" />
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-1\src\main\resources\log4j2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2016,7 +2563,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroservicecloudEureka3Application">
+  <component name="RunManager" selected="Spring Boot.MicroservicecloudConsumer1Application">
     <configuration name="microservicecloud:microservicecloud-api [mbGenerator]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -2067,6 +2614,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicroservicecloudConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-consumer-feign_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudconsumerfeign.MicroservicecloudConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicroservicecloudEureka1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservicecloud-eureka-1_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudeureka1.MicroservicecloudEureka1Application" />
@@ -2102,16 +2656,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicroservicecloudProvider2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-provider-2_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudprovider2.MicroservicecloudProvider2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicecloudProvider3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-provider-3_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudprovider3.MicroservicecloudProvider3Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.MicroservicecloudProvider1Application" />
       <item itemvalue="Spring Boot.MicroservicecloudConsumer1Application" />
       <item itemvalue="Spring Boot.DemoApplication" />
-      <item itemvalue="Gradle.microservicecloud:microservicecloud-provider-1 [mbGenerator]" />
-      <item itemvalue="Gradle.microservicecloud:microservicecloud-api [mbGenerator]" />
       <item itemvalue="Spring Boot.MicroservicecloudEurekaApplication" />
       <item itemvalue="Spring Boot.MicroservicecloudEureka2Application" />
       <item itemvalue="Spring Boot.MicroservicecloudEureka1Application" />
       <item itemvalue="Spring Boot.MicroservicecloudEureka3Application" />
+      <item itemvalue="Gradle.microservicecloud:microservicecloud-provider-1 [mbGenerator]" />
+      <item itemvalue="Gradle.microservicecloud:microservicecloud-api [mbGenerator]" />
+      <item itemvalue="Spring Boot.MicroservicecloudProvider2Application" />
+      <item itemvalue="Spring Boot.MicroservicecloudProvider3Application" />
+      <item itemvalue="Spring Boot.MicroservicecloudConsumerFeignApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -2130,34 +2701,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552959433672</updated>
-      <workItem from="1552959437532" duration="66589000" />
+      <workItem from="1552959437532" duration="66832000" />
+      <workItem from="1553482837519" duration="28000" />
+      <workItem from="1554342639781" duration="945000" />
+      <workItem from="1554343632864" duration="5727000" />
+      <workItem from="1556514457258" duration="11352000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66589000" />
+    <option name="totallyTimeSpent" value="84884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Build" visible="true" weight="0.330076" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.329718" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Statistic" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Messages" weight="0.32899022" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
@@ -2165,17 +2731,26 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="right" id="Gradle" weight="0.32995737" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.330076" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Statistic" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Messages" order="15" weight="0.32899022" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32995737" />
+      <window_info anchor="right" id="Gradle" order="6" weight="0.32995737" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -2185,216 +2760,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/log4j2/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/log4j2/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/5.1.5.RELEASE/46673f1424ad8dc3a9fc39a96730e1ee2663fc18/spring-web-5.1.5.RELEASE-sources.jar!/org/springframework/web/client/RestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/cfgbeans/ConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#428#429#0" expanded="true" />
-            <element signature="e#460#461#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/mybatis/mapper/ProviderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/mapper/ProviderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.5.RELEASE/9f42597b821f59087bf759695992c5ea8a1fcf0d/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/cache/annotation/CachingConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/5.1.5.RELEASE/9f42597b821f59087bf759695992c5ea8a1fcf0d/spring-context-5.1.5.RELEASE-sources.jar!/org/springframework/cache/annotation/CachingConfigurerSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/mybatis/config/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="51" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/MybatisConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/RedisConfigBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-399">
-          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/mybatis/config/generator.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/mybatis/config/mybatis.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/soft/gradle/gradle-4.9-bin/gradle-4.9/lib/plugins/gradle-plugins-4.9.jar!/org/gradle/api/plugins/JavaPluginConvention.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1743">
-          <caret line="126" column="30" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
-          <folding>
-            <element signature="e#4384#4385#0" expanded="true" />
-            <element signature="e#4422#4423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/mybatis/config/generator.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/mapper/ad_guider/AcBaseAccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/mapper/ad_guider/AcBaseInfoMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/pojo/ad_guider/AcBaseAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/mybatis/mapper/common/ad_guider/AcBaseAccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2225" />
-      </provider>
-    </entry>
-    <entry file="jar://G:/soft/gradle/gradle-4.9-bin/gradle-4.9/lib/gradle-core-api-4.9.jar!/org/gradle/api/artifacts/dsl/RepositoryHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-actuator-autoconfigure/2.1.3.RELEASE/4d2b9808448b9e2bb7db0fe4e14e7f1058a4b7a9/spring-boot-actuator-autoconfigure-2.1.3.RELEASE-sources.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="81" column="34" selection-start-line="81" selection-start-column="34" selection-end-line="81" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/log4j2/log4j2.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/RestConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="22" column="56" selection-start-line="22" selection-start-column="56" selection-end-line="22" selection-end-column="56" />
+        <state relative-caret-position="525">
+          <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2403,92 +2772,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/controller/ProviderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/ProviderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/MicroservicecloudProvider1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="378">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/Impl/ProviderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="57" column="73" selection-start-line="57" selection-start-column="73" selection-end-line="57" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/src/main/java/com/codespace/microservicecloudeureka/MicroservicecloudEureka1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="68" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="68" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-2/src/main/java/com/codespace/microservicecloudeureka2/MicroservicecloudEureka2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-2/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="49" selection-start-line="1" selection-start-column="49" selection-end-line="1" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+        <state relative-caret-position="525">
+          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -2499,6 +2791,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-3/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/src/main/java/com/codespace/microservicecloudeureka1/MicroservicecloudEureka1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -2506,52 +2812,272 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/mybatis/config/generator.cfg.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+        <state relative-caret-position="-1428">
+          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-3/build.gradle">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/settings.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        <state relative-caret-position="84">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-3/src/main/java/com/codespace/microservicecloudeureka3/MicroservicecloudEureka3Application.java">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        <state relative-caret-position="63">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-2/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/mapper/ProviderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="112" selection-start-line="10" selection-start-column="112" selection-end-line="10" selection-end-column="112" />
+        <state relative-caret-position="273">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-3/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/MicroservicecloudProvider1Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="120" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="120" />
+        <state relative-caret-position="231">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/service/ProviderService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/mapper/ProviderMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/cfgbeans/RedisConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/cfgbeans/MybatisConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/resources/log4j2/log4j2.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/resources/log4j2/log4j2.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/service/ProviderService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/mapper/ProviderMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/cfgbeans/RedisConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/cfgbeans/MybatisConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="120" lean-forward="true" selection-start-line="10" selection-start-column="69" selection-end-line="10" selection-end-column="120" />
+        <state relative-caret-position="63">
+          <caret line="3" column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/service/Impl/ProviderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/MicroservicecloudProvider2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/controller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/service/Impl/ProviderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/MicroservicecloudProvider3Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/controller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" column="82" selection-start-line="39" selection-start-column="82" selection-end-line="39" selection-end-column="82" />
+        <state relative-caret-position="336">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/ribbon/rule/MySelfRule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/RestConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="29" lean-forward="true" selection-end-line="6" selection-end-column="171" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/cfgbeans/RestConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="1" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/ProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -2608,11 +3134,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservicecloud-eureka-1</last-edited>
+          <last-edited>microservicecloud_main|microservicecloud</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.28375286" />
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
