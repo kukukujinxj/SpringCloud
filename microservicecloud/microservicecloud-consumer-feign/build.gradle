@@ -2,5 +2,7 @@ dependencies {
     compile project(path: ":microservicecloud-api")
     compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-ribbon', version: '1.4.6.RELEASE'
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+//    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-feign
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-feign', version: '1.4.6.RELEASE'
 }
