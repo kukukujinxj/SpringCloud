@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59a1edf9-2b7b-47b8-918b-6185336e918d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/cfgbeans/MybatisConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/cfgbeans/RedisConfigBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/controller/ProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/mapper/ProviderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/service/Impl/ProviderServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/service/ProviderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/log4j2/log4j2.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/mybatis/config/mybatis.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/mybatis/mapper/ProviderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/microservicecloud-zuul-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.9/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/out/production/classes/META-INF/microservicecloud-api_main.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -65,6 +50,18 @@
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/.gradle/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/build/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/out/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/build/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/out/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-zuul-gateway/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-zuul-gateway/build/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-zuul-gateway/out/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-config/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-config/build/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-config/out/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-config-client/.gradle/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-config-client/build/" />
+    <ignored path="$PROJECT_DIR$/microservicecloud-config-client/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,10 +75,19 @@
     <projectState path="$PROJECT_DIR$/demo">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/microservicecloud-config">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservicecloud-config-client">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$/microservicecloud-consumer-1">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/microservicecloud-consumer-feign">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/microservicecloud-eureka">
@@ -108,6 +114,9 @@
     <projectState path="$PROJECT_DIR$/microservicecloud-provider-hystrix-1">
       <ProjectState />
     </projectState>
+    <projectState path="$PROJECT_DIR$/microservicecloud-zuul-gateway">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -125,6 +134,9 @@
           <activation />
         </task>
         <task path="$PROJECT_DIR$/microservicecloud-provider-2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/microservicecloud-config-client">
           <activation />
         </task>
         <projects_view>
@@ -145,147 +157,96 @@
     <session id="164668463">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="gradle" value="122" />
-          <entry key="java" value="190" />
+          <entry key="gradle" value="154" />
+          <entry key="java" value="215" />
+          <entry key="properties" value="1" />
           <entry key="xml" value="28" />
-          <entry key="yml" value="77" />
+          <entry key="yml" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Groovy" value="122" />
-          <entry key="JAVA" value="190" />
+          <entry key="Groovy" value="154" />
+          <entry key="JAVA" value="215" />
+          <entry key="Properties" value="1" />
           <entry key="XML" value="28" />
-          <entry key="YAML" value="77" />
+          <entry key="YAML" value="96" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="11" />
-          <entry key="gradle" value="448" />
-          <entry key="java" value="2557" />
+          <entry key="gradle" value="555" />
+          <entry key="java" value="2961" />
           <entry key="properties" value="21" />
           <entry key="xml" value="198" />
-          <entry key="yml" value="1598" />
+          <entry key="yml" value="2395" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="448" />
-          <entry key="JAVA" value="2557" />
+          <entry key="Groovy" value="555" />
+          <entry key="JAVA" value="2961" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="Properties" value="21" />
           <entry key="XML" value="198" />
-          <entry key="YAML" value="1598" />
+          <entry key="YAML" value="2395" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
-                <element signature="e#486#487#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-              <folding>
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#702#703#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+            <state relative-caret-position="126">
+              <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/src/main/java/com/codespace/microservicecloudconfigclient/controller/ConfigClientRest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-api/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="108" selection-start-line="3" selection-start-column="108" selection-end-line="3" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="462">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#569#570#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="8" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -344,12 +305,24 @@
                 <option name="path" value="$PROJECT_DIR$/microservicecloud-api" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
+                <option name="name" value=":microservicecloud-config" />
+                <option name="path" value="$PROJECT_DIR$/microservicecloud-config" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":microservicecloud-config-client" />
+                <option name="path" value="$PROJECT_DIR$/microservicecloud-config-client" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
                 <option name="name" value=":microservicecloud-consumer-1" />
                 <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-1" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":microservicecloud-consumer-feign" />
                 <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":microservicecloud-consumer-hystrix-dashboard" />
+                <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value=":microservicecloud-eureka-1" />
@@ -378,6 +351,10 @@
               <ExternalProjectPojo>
                 <option name="name" value=":microservicecloud-provider-hystrix-1" />
                 <option name="path" value="$PROJECT_DIR$/microservicecloud-provider-hystrix-1" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value=":microservicecloud-zuul-gateway" />
+                <option name="path" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -696,6 +673,156 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/microservicecloud-config">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':microservicecloud-config'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':microservicecloud-config'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':microservicecloud-config'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':microservicecloud-config'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':microservicecloud-config'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':microservicecloud-config'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':microservicecloud-config'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':microservicecloud-config'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':microservicecloud-config'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="mbGenerator" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':microservicecloud-config'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-config" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-1">
           <value>
             <list>
@@ -991,6 +1118,156 @@
               <ExternalTaskPojo>
                 <option name="description" value="Displays the properties of project ':microservicecloud-consumer-feign'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':microservicecloud-consumer-hystrix-dashboard'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':microservicecloud-consumer-hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':microservicecloud-consumer-hystrix-dashboard'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':microservicecloud-consumer-hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':microservicecloud-consumer-hystrix-dashboard'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':microservicecloud-consumer-hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':microservicecloud-consumer-hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':microservicecloud-consumer-hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':microservicecloud-consumer-hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="mbGenerator" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':microservicecloud-consumer-hystrix-dashboard'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
             </list>
@@ -2046,23 +2323,182 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/microservicecloud-zuul-gateway">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by project ':microservicecloud-zuul-gateway'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of project ':microservicecloud-zuul-gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in project ':microservicecloud-zuul-gateway'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in project ':microservicecloud-zuul-gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles an executable jar archive containing the main classes and their dependencies." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="bootJar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of project ':microservicecloud-zuul-gateway'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from project ':microservicecloud-zuul-gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependency management declared in project ':microservicecloud-zuul-gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="dependencyManagement" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs this project as a Spring Boot application." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="bootRun" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in project ':microservicecloud-zuul-gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in project ':microservicecloud-zuul-gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="mbGenerator" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of project ':microservicecloud-zuul-gateway'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="48204651136976" />
+        <entry key="$PROJECT_DIR$" value="66896139502223" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/build.gradle" value="735046210" />
         <entry key="$PROJECT_DIR$/demo/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/demo/build.gradle" value="2415233099" />
         <entry key="$PROJECT_DIR$/demo/settings.gradle" value="1388283955" />
         <entry key="$PROJECT_DIR$/microservicecloud-api/build.gradle" value="4160724049" />
+        <entry key="$PROJECT_DIR$/microservicecloud-config-client/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-config-client/build.gradle" value="3928716993" />
+        <entry key="$PROJECT_DIR$/microservicecloud-config-client/settings.gradle" value="1695123866" />
+        <entry key="$PROJECT_DIR$/microservicecloud-config/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-config/build.gradle" value="1867090482" />
+        <entry key="$PROJECT_DIR$/microservicecloud-config/settings.gradle" value="830376390" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-1/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" value="2003142164" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-1/settings.gradle" value="4187878476" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle" value="3721599060" />
         <entry key="$PROJECT_DIR$/microservicecloud-consumer-feign/settings.gradle" value="616560754" />
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/build.gradle" value="3695528772" />
+        <entry key="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/settings.gradle" value="3211859926" />
         <entry key="$PROJECT_DIR$/microservicecloud-eureka-1/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/microservicecloud-eureka-1/build.gradle" value="4191931488" />
         <entry key="$PROJECT_DIR$/microservicecloud-eureka-1/settings.gradle" value="3254616835" />
@@ -2087,7 +2523,10 @@
         <entry key="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/build.gradle" value="1612325804" />
         <entry key="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/settings.gradle" value="3124220828" />
-        <entry key="$PROJECT_DIR$/settings.gradle" value="3900391547" />
+        <entry key="$PROJECT_DIR$/microservicecloud-zuul-gateway/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/microservicecloud-zuul-gateway/build.gradle" value="2191439009" />
+        <entry key="$PROJECT_DIR$/microservicecloud-zuul-gateway/settings.gradle" value="2856994636" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="276526956" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -2133,6 +2572,42 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/microservicecloud-config">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.arenagod.gradle/mybatis-generator-plugin/1.4/c9639757ed02a25f7de391d03bef97d1f7c1e309/mybatis-generator-plugin-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/microservicecloud-config" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/microservicecloud-config-client">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.arenagod.gradle/mybatis-generator-plugin/1.4/c9639757ed02a25f7de391d03bef97d1f7c1e309/mybatis-generator-plugin-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/microservicecloud-config-client" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                   <entry key="$PROJECT_DIR$/microservicecloud-consumer-1">
                     <value>
                       <ExternalModuleBuildClasspathPojo>
@@ -2166,6 +2641,24 @@
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-feign" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                  <entry key="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.arenagod.gradle/mybatis-generator-plugin/1.4/c9639757ed02a25f7de391d03bef97d1f7c1e309/mybatis-generator-plugin-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard" />
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
@@ -2313,6 +2806,24 @@
                       </ExternalModuleBuildClasspathPojo>
                     </value>
                   </entry>
+                  <entry key="$PROJECT_DIR$/microservicecloud-zuul-gateway">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="entries">
+                          <list>
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-gradle-plugin/2.1.3.RELEASE/6e5fba2632bf299b4c28a1c272ef3fa4533e8f7f/spring-boot-gradle-plugin-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/gradle.plugin.com.arenagod.gradle/mybatis-generator-plugin/1.4/c9639757ed02a25f7de391d03bef97d1f7c1e309/mybatis-generator-plugin-1.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-loader-tools/2.1.3.RELEASE/78b1832575cecda34bbf919641b9b00705b07265/spring-boot-loader-tools-2.1.3.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.spring.gradle/dependency-management-plugin/1.0.6.RELEASE/c7118365d75bca698892b5df1e683b8d6d6b87bb/dependency-management-plugin-1.0.6.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/5.1.5.RELEASE/aacc4555108f3da913a58114b2aebc819f58cce4/spring-core-5.1.5.RELEASE.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.18/1191f9f2bc0c47a8cce69193feb1ff0a8bcb37d5/commons-compress-1.18.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/5.1.5.RELEASE/5cbd44d11a031c64c788edf1f99706b31c434469/spring-jcl-5.1.5.RELEASE.jar" />
+                          </list>
+                        </option>
+                        <option name="path" value="$PROJECT_DIR$/microservicecloud-zuul-gateway" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
                 </map>
               </option>
               <option name="name" value="microservicecloud" />
@@ -2439,21 +2950,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/ProviderService.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/controller/ProviderController.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/MicroservicecloudProvider1Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/Impl/ProviderServiceImpl.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka/settings.gradle" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka/src/main/java/com/codespace/microservicecloudeureka/MicroservicecloudEurekaApplication.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-2/build.gradle" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-2/src/main/java/com/codespace/microservicecloudeureka2/MicroservicecloudEureka2Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-1/build.gradle" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-1/src/main/java/com/codespace/microservicecloudeureka1/MicroservicecloudEureka1Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-3/build.gradle" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-3/src/main/java/com/codespace/microservicecloudeureka3/MicroservicecloudEureka3Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-3/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-1/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservicecloud-eureka-2/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/cfgbeans/MybatisConfigBean.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml" />
@@ -2478,18 +2974,33 @@
         <option value="$PROJECT_DIR$/microservicecloud-api/build.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/build.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/service/ProviderService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/service/Impl/ProviderServiceImpl.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/MicroservicecloudProviderHystrix1Application.java" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/controller/ProviderController.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/assd.java" />
         <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/asd.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/service/ClientFallbackService.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/java/com/codespace/microservicecloudconsumerhystrixdashboard/MicroservicecloudConsumerHystrixDashboardApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-zuul-gateway/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-zuul-gateway/src/main/java/com/codespace/microservicecloudzuulgateway/MicroservicecloudZuulGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-zuul-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-config/src/main/java/com/codespace/microservicecloudconfig/MicroservicecloudConfigApplication.java" />
+        <option value="$PROJECT_DIR$/microservicecloud-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-config/build.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-config-client/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/microservicecloud-config-client/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-config-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservicecloud-config-client/src/main/java/com/codespace/microservicecloudconfigclient/controller/ConfigClientRest.java" />
       </list>
     </option>
   </component>
@@ -2519,7 +3030,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -2531,108 +3042,25 @@
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-api" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloudconsumerfeign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloudconsumerfeign" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloudconsumerfeign" type="462c0819:PsiDirectoryNode" />
-              <item name="consumer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-consumer-feign" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -2640,63 +3068,42 @@
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloudproviderhystrix1" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloudproviderhystrix1" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
+              <item name="microservicecloudconfigclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="microservicecloudproviderhystrix1" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="microservicecloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservicecloud" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="microservicecloud-provider-hystrix-1" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="microservicecloud-config-client" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -2705,7 +3112,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -2718,14 +3125,14 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557397092987" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557730147333" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -2733,16 +3140,18 @@
       <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-1\src\main\resources\log4j2" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="common.service" />
+      <recent name="com.codespace.microservicecloudconsumerfeign.consumer.service" />
       <recent name="com.codespace.microservicecloudprovider1.provider.cfgbeans" />
       <recent name="com.codeservice.microservicecloudconsumer1.cfgbeans" />
       <recent name="common.cfgbeans" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-zuul-gateway\src\main\resources" />
+      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-api\src\main\resources" />
       <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-hystrix-1\src\main\java\com\codespace\microservicecloudproviderhystrix1" />
       <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-hystrix-1\src\main\resources" />
       <recent name="G:\SpringCloud\microservicecloud\microservicecloud-consumer-feign\src\main\java\com\codespace\microservicecloudconsumerfeign" />
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-3\src\main\java\com\codespace\microservicecloudprovider3" />
-      <recent name="G:\SpringCloud\microservicecloud\microservicecloud-provider-3\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -2757,7 +3166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MicroservicecloudConsumerFeignApplication">
+  <component name="RunManager" selected="Spring Boot.MicroservicecloudConfigApplication">
     <configuration name="microservicecloud:microservicecloud-api [mbGenerator]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -2801,6 +3210,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicroservicecloudConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-config_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudconfig.MicroservicecloudConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicecloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-config-client_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudconfigclient.MicroservicecloudConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MicroservicecloudConsumer1Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservicecloud-consumer-1_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codeservice.microservicecloudconsumer1.MicroservicecloudConsumer1Application" />
@@ -2811,6 +3234,13 @@
     <configuration name="MicroservicecloudConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="microservicecloud-consumer-feign_main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudconsumerfeign.MicroservicecloudConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MicroservicecloudConsumerHystrixDashboardApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-consumer-hystrix-dashboard_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudconsumerhystrixdashboard.MicroservicecloudConsumerHystrixDashboardApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -2871,6 +3301,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MicroservicecloudZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="microservicecloud-zuul-gateway_main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.codespace.microservicecloudzuulgateway.MicroservicecloudZuulGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.MicroservicecloudProvider1Application" />
       <item itemvalue="Spring Boot.MicroservicecloudConsumer1Application" />
@@ -2882,9 +3319,13 @@
       <item itemvalue="Spring Boot.MicroservicecloudProvider2Application" />
       <item itemvalue="Spring Boot.MicroservicecloudProvider3Application" />
       <item itemvalue="Spring Boot.MicroservicecloudConsumerFeignApplication" />
+      <item itemvalue="Spring Boot.MicroservicecloudProviderHystrix1Application" />
+      <item itemvalue="Spring Boot.MicroservicecloudConsumerHystrixDashboardApplication" />
+      <item itemvalue="Spring Boot.MicroservicecloudZuulGatewayApplication" />
+      <item itemvalue="Spring Boot.MicroservicecloudConfigApplication" />
       <item itemvalue="Gradle.microservicecloud:microservicecloud-provider-1 [mbGenerator]" />
       <item itemvalue="Gradle.microservicecloud:microservicecloud-api [mbGenerator]" />
-      <item itemvalue="Spring Boot.MicroservicecloudProviderHystrix1Application" />
+      <item itemvalue="Spring Boot.MicroservicecloudConfigClientApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -2909,16 +3350,19 @@
       <workItem from="1554343632864" duration="5727000" />
       <workItem from="1556514457258" duration="11581000" />
       <workItem from="1557380703244" duration="16253000" />
+      <workItem from="1557711084271" duration="6576000" />
+      <workItem from="1557718944621" duration="6840000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101366000" />
+    <option name="totallyTimeSpent" value="128065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25799572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -2927,13 +3371,13 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.3984799" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3984799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" weight="0.330076" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.330076" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.3984799" />
@@ -2962,233 +3406,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/mapper/ProviderMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/cfgbeans/RedisConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/cfgbeans/MybatisConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/service/Impl/ProviderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/MicroservicecloudProvider2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/controller/ProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/provider/service/Impl/ProviderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/java/com/codespace/microservicecloudprovider3/MicroservicecloudProvider3Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/java/com/codespace/microservicecloudprovider2/provider/controller/ProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-3/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="48" selection-start-line="40" selection-start-column="48" selection-end-line="40" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="40" column="43" lean-forward="true" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/ProviderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-commons/2.1.1.RELEASE/f1addc6a6845f579f0f04154e590bda76d2276eb/spring-cloud-commons-2.1.1.RELEASE-sources.jar!/org/springframework/cloud/client/loadbalancer/LoadBalanced.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/cfgbeans/RestConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/ribbon/rule/MySelfRule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/cfgbeans/RestConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="29" lean-forward="true" selection-end-line="6" selection-end-column="171" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/controller/ProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="18" column="48" lean-forward="true" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/Impl/ProviderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="31" column="27" lean-forward="true" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/log4j2/log4j2.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="40" column="104" selection-start-line="40" selection-start-column="104" selection-end-line="40" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/cfgbeans/RedisConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/cfgbeans/MybatisConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/mapper/ProviderMapper.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/MicroservicecloudProvider1Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/service/ProviderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/service/Impl/ProviderServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="33" column="49" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -3199,76 +3420,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/controller/ProviderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#926#927#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/assd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/asd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#428#429#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-            <element signature="e#486#487#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#702#703#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/assd.java" />
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/asd.java" />
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/codespace/common/service/ClientFallbackService.java" />
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/codespace/common/service/FeignClientService.java" />
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/service.java" />
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/service/ClientFallbackService.java" />
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/microservicecloud-api/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -3278,8 +3442,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="108" selection-start-line="6" selection-start-column="108" selection-end-line="6" selection-end-column="108" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -3290,20 +3454,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/MicroservicecloudConsumer1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/java/com/codespace/microservicecloudconsumerhystrixdashboard/MicroservicecloudConsumerHystrixDashboardApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
-          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/MicroservicecloudProvider1Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/ProviderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/service/Impl/ProviderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-zuul-gateway/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/java/com/codespace/microservicecloudprovider1/provider/controller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/src/main/java/com/codeservice/microservicecloudconsumer1/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/controller/ProviderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="41" lean-forward="true" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/MicroservicecloudConsumerFeignApplication.java">
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/java/com/codespace/microservicecloudproviderhystrix1/provider/service/Impl/ProviderServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="92" selection-start-line="9" selection-start-column="92" selection-end-line="9" selection-end-column="92" />
+        <state relative-caret-position="567">
+          <caret line="33" column="49" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -3311,6 +3569,157 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-zuul-gateway/src/main/java/com/codespace/microservicecloudzuulgateway/MicroservicecloudZuulGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-hystrix-1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-1/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-feign/src/main/java/com/codespace/microservicecloudconsumerfeign/consumer/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#654#655#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/FeignClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/common/service/ClientFallbackService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding>
+            <element signature="e#490#491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-zuul-gateway/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-zuul-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-1/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="109" lean-forward="true" selection-start-line="3" selection-start-column="109" selection-end-line="4" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config/src/main/java/com/codespace/microservicecloudconfig/MicroservicecloudConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="89" selection-start-line="3" selection-start-column="89" selection-end-line="3" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="51" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="8" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="51" lean-forward="true" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-config-client/src/main/java/com/codespace/microservicecloudconfigclient/controller/ConfigClientRest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#569#570#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

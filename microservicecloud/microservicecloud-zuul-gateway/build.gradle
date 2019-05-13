@@ -1,0 +1,8 @@
+dependencies {
+    compile project(path: ":microservicecloud-api")
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-ribbon
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-ribbon', version: '1.4.6.RELEASE'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    // https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-zuul
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zuul', version: '1.4.6.RELEASE'
+}

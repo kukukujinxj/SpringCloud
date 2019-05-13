@@ -1,0 +1,25 @@
+server:
+  port: 9527
+spring:
+  application:
+    name: microservicecloud-zuul-gateway
+eureka:
+  client:
+    service-url:
+      defaultZone: http://microservicecloud-eureka-1.com:7001/eureka/,http://microservicecloud-eureka-2.com:7002/eureka/,http://microservicecloud-eureka-3.com:7003/eureka/ #eureka\u96C6\u7FA4
+  instance:
+    instance-id: zuul-gateway
+    prefer-ip-address: true
+    hostname: myzuul.com
+info:
+  app.name: codespace
+  company.name: www.codespace.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+zuul:
+  routes:
+    myprovider.serviceId: microservicecloud-provider
+    myprovider.path: /myprovider/**
+  ignored-services: microservicecloud-provider
+  prefix: /codespace
+#  ignored-services: "*" 禁止多个原微服务
